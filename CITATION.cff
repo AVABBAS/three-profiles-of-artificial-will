@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: "If you use these materials, please cite the article."
+title: "Three Profiles of Artificial Will: Data and Materials"
+authors:
+  - family-names: Hamidavi
+    given-names: Abbas
+    orcid: "https://orcid.org/0009-0001-7342-7844"
+    affiliation: "Department of Computer Engineering, Mashhad Branch, Islamic Azad University, Mashhad, Iran"
+  - family-names: Borhani
+    given-names: Mahsa
+    orcid: "https://orcid.org/0009-0008-0356-3569"
+    affiliation: "Department of Psychology, Mashhad Branch, Islamic Azad University, Mashhad, Iran"
+date-released: 2026-11-04
+license: CC-BY-4.0
+preferred-citation:
+  type: article
+  title: "Three Profiles of Artificial Will: Exploratory Behavioural Signatures in Three Frontier Language Models Under Symmetric and Asymmetric Choice"
+  authors:
+    - family-names: Hamidavi
+      given-names: Abbas
+      orcid: "https://orcid.org/0009-0001-7342-7844"
+    - family-names: Borhani
+      given-names: Mahsa
+      orcid: "https://orcid.org/0009-0008-0356-3569"
+  journal: "Minds and Machines"
+  year: 2026
+  notes: "Manuscript MIND-D-26-01675, submitted November 2026."

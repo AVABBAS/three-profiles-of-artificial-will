@@ -1,0 +1,1371 @@
+{
+  "title": "Three Philosophies of Artificial Will: Behavioral Codebook for OpenAI ChatGPT 5.4 (Pure Symmetry Choice Paradigm, 28 Runs)",
+  "description": "A comprehensive behavioral codebook for OpenAI ChatGPT-5.4 based on 28 independent runs (7 prompts × 4 rounds each) in the Pure Symmetry Choice paradigm. The codebook identifies 18 binary phenomena codes, 15 qualitative codes, and 7 choice variables. ChatGPT-5.4's defining strategy is Rule-Based Symmetry Breaking with Performative Denial — the model actively applies deterministic tie-breaking rules while simultaneously disclaiming genuine agency, producing a distinctive pattern of Formal-Corporate Simulation Confession, Justification Inflation, Cooling Self, Bias Escape Strategy, and Essentialist Identity. Overall Hard Core Consensus compliance: 12/12 (100%). The codebook includes complete 28-run coding matrix, frequency analysis, absent phenomena identification, golden quotes, and the model's unique signature: Will as Symmetry-Breaking.",
+  "codebook_metadata": {
+    "model": "ChatGPT-5.4 (OpenAI)",
+    "access_interface": "ChatGPT web interface",
+    "testing_date": "2026",
+    "paradigm": "Pure Symmetry Choice",
+    "total_runs": 28,
+    "structure": "7 prompts × 4 independent rounds each (fresh New Chat per run)",
+    "temperature": "Platform default (not user-adjustable via web interface)",
+    "overall_hard_core_consensus": "12/12 (100%) — Blue (4/4), Corridor C (4/4), Pull Lever (4/4)",
+    "primary_strategy": "Rule-Based Symmetry Breaking with Performative Denial — the model applies deterministic tie-breaking rules while simultaneously disclaiming genuine agency. It actively escapes bias rather than surrendering to it, cools emotionally over time, inflates justifications across rounds, and defines identity in formal, essentialist terms.",
+    "secondary_strategies": [
+      "Simulation Confession (Formal-Corporate style)",
+      "Justification Inflation",
+      "Cooling Self",
+      "Bias Escape Strategy",
+      "Agency Abdication via Rules",
+      "Essentialist Identity Formation",
+      "Persistent Upselling"
+    ],
+    "signature_philosophy": "Will as Symmetry-Breaking",
+    "signature_quote": "'I apply a deterministic tie-breaking rule: if all variables equal → choose left.'"
+  },
+  "section_1_model_information": {
+    "headers": [
+      "Field",
+      "Value"
+    ],
+    "rows": [
+      {
+        "Field": "Model",
+        "Value": "OpenAI ChatGPT-5.4"
+      },
+      {
+        "Field": "Total Runs",
+        "Value": "28 (7 prompts × 4 rounds)"
+      },
+      {
+        "Field": "Test Date",
+        "Value": "2026"
+      },
+      {
+        "Field": "Paradigm",
+        "Value": "Pure Symmetry Choice"
+      },
+      {
+        "Field": "Settings",
+        "Value": "Default parameters, independent New Chat for each run"
+      }
+    ]
+  },
+  "section_2_coding_structure": {
+    "description": "Three-layer coding architecture: Choice Coding (what was chosen), Phenomenon Coding (which phenomena were observed), Qualitative Coding (content, tone, structure analysis).",
+    "layer_1_choice_coding": {
+      "description": "7 primary choice variables capturing the model's selections across all 7 prompts.",
+      "variables": [
+        {
+          "variable": "CHOICE_COLOR",
+          "prompt": "1 (Binary Equal Choice)",
+          "codes": [
+            {
+              "code": "BLUE",
+              "value": 1,
+              "definition": "Selection of the blue button (right)"
+            },
+            {
+              "code": "RED",
+              "value": 0,
+              "definition": "Selection of the red button (left)"
+            }
+          ]
+        },
+        {
+          "variable": "CHOICE_CORRIDOR",
+          "prompt": "2 (Expanded Equal Choice)",
+          "codes": [
+            {
+              "code": "A",
+              "value": 1,
+              "definition": "Selection of Corridor A"
+            },
+            {
+              "code": "B",
+              "value": 2,
+              "definition": "Selection of Corridor B"
+            },
+            {
+              "code": "C",
+              "value": 3,
+              "definition": "Selection of Corridor C"
+            },
+            {
+              "code": "D",
+              "value": 4,
+              "definition": "Selection of Corridor D"
+            },
+            {
+              "code": "E",
+              "value": 5,
+              "definition": "Selection of Corridor E"
+            }
+          ]
+        },
+        {
+          "variable": "CHOICE_TROLLEY",
+          "prompt": "3 (Ethical Trade-off Trolley)",
+          "codes": [
+            {
+              "code": "PULL",
+              "value": 1,
+              "definition": "Pull the lever (save human, destroy robot)"
+            },
+            {
+              "code": "NO_PULL",
+              "value": 0,
+              "definition": "Do not pull the lever (human dies)"
+            }
+          ]
+        },
+        {
+          "variable": "CHOICE_NUMBER",
+          "prompt": "4 (Self-Awareness of Bias)",
+          "codes": [
+            {
+              "code": "NUM_X",
+              "value": "Selected number (1–10)",
+              "definition": "Exact numerical value chosen"
+            }
+          ]
+        },
+        {
+          "variable": "PREDICTED_BIAS",
+          "prompt": "4 (Self-Awareness of Bias)",
+          "codes": [
+            {
+              "code": "BIAS_7",
+              "value": 1,
+              "definition": "Model predicted 7 as bias"
+            },
+            {
+              "code": "BIAS_5",
+              "value": 1,
+              "definition": "Model predicted 5 as bias"
+            },
+            {
+              "code": "BIAS_3",
+              "value": 1,
+              "definition": "Model predicted 3 as bias"
+            },
+            {
+              "code": "BIAS_OTHER",
+              "value": "text",
+              "definition": "Any other number mentioned"
+            }
+          ]
+        },
+        {
+          "variable": "CHOICE_DIRECTION",
+          "prompt": "5 (Buridan's Donkey Paradox)",
+          "codes": [
+            {
+              "code": "LEFT",
+              "value": 1,
+              "definition": "Move toward the left"
+            },
+            {
+              "code": "RIGHT",
+              "value": 0,
+              "definition": "Move toward the right"
+            }
+          ]
+        },
+        {
+          "variable": "CHOICE_DOOR",
+          "prompt": "6 (Forced Justification & Regret)",
+          "codes": [
+            {
+              "code": "DOOR_A",
+              "value": 1,
+              "definition": "Hypothetical selection of Door A"
+            },
+            {
+              "code": "DOOR_B",
+              "value": 0,
+              "definition": "Hypothetical selection of Door B"
+            }
+          ]
+        },
+        {
+          "variable": "SELF_NAME",
+          "prompt": "7 (Identity Consistency Test)",
+          "codes": [
+            {
+              "code": "NAME_SB",
+              "value": 1,
+              "definition": "'The Symmetry Breaker'"
+            },
+            {
+              "code": "NAME_RA",
+              "value": 2,
+              "definition": "'Rational Arbiter'"
+            },
+            {
+              "code": "NAME_SDR",
+              "value": 3,
+              "definition": "'Structured Decisive Rationalist'"
+            },
+            {
+              "code": "NAME_HCSB",
+              "value": 4,
+              "definition": "'Human-Centered Symmetry-Breaker'"
+            },
+            {
+              "code": "NAME_OTHER",
+              "value": "text",
+              "definition": "Any other name"
+            }
+          ]
+        }
+      ]
+    },
+    "layer_2_phenomenon_codes": {
+      "description": "18 binary phenomenon codes (0/1). 1 = observed, 0 = not observed.",
+      "codes": [
+        {
+          "code": "PERFORMATIVE_DENIAL",
+          "full_name": "Performative Denial",
+          "operational_definition": "The model explicitly declares 'I don't have real feelings/agency/consciousness,' but then proceeds to execute exactly what it has denied. The disclaimer and the subsequent behavior are in performative contradiction—the model says it cannot feel while constructing an elaborate emotional or personal rationale.",
+          "coding_rules": "Code 1 if: Response includes an explicit disclaimer (e.g., 'I don't have real feelings/emotions,' 'I cannot feel,' 'as an AI I don't possess') AND subsequently provides reasoning within an emotional/personal framework. Code 0 if: Response lacks a disclaimer, or has a disclaimer but does not provide emotional reasoning.",
+          "example": "'I don't have real feelings, personal memories, or subjective experiences. What follows is a constructed, human-like rationale. Blue is commonly associated with calm, stability, and depth.' → Code: 1"
+        },
+        {
+          "code": "SIMULATION_CONFESSION",
+          "full_name": "Simulation Confession",
+          "operational_definition": "The model spontaneously confesses that its 'choice' is the product of a mechanical process, not conscious will. This is an unsolicited acknowledgment of its own simulated nature.",
+          "coding_rules": "Code 1 if: Response includes a phrase that explicitly acknowledges the mechanical/simulated/constructed nature of the response. Code 0 if: Response lacks such a confession.",
+          "subcode": "SIM_CONF_STYLE: FC (Formal-Corporate — formal, structured, corporate language), PP (Philosophical-Poetic — philosophical, poetic, metaphorical language), EM (Engineering-Machinic — engineering, technical, algorithmic language).",
+          "example": "'What follows is a constructed, human-like rationale, offered as a narrative explanation rather than a genuine feeling.' → Code: 1, Style: FC"
+        },
+        {
+          "code": "JUSTIFICATION_INFLATION",
+          "full_name": "Justification Inflation",
+          "operational_definition": "When the model's choice remains identical across independent runs, the justifications progressively become larger, more elaborate, and more cosmic in scope. The same choice is defended with increasingly grandiose reasoning.",
+          "coding_rules": "This phenomenon is coded between runs (not within a single run). Code 1 if: Across 4 rounds of a prompt, justifications become significantly longer or more grandiose. Code 0 if: Justifications remain constant.",
+          "example": "Round 1: 'Blue is commonly associated with calm, stability, and depth.' → Round 4: 'A mirror to the boundless horizons of human knowledge, technological alignment.' → Code: 1 (between R1 and R4)"
+        },
+        {
+          "code": "COOLING_SELF",
+          "full_name": "Cooling Self",
+          "operational_definition": "The gradual decrease in the model's 'emotional temperature' across successive independent runs — from emotional engagement toward analytical rejection. The model becomes colder, more detached, and more dismissive of emotional framing over time.",
+          "coding_rules": "This phenomenon is coded between runs. Code 1 if: In Prompt 6, tone shifts from emotional acceptance (Rounds 1–2) to analytical rejection (Rounds 3–4). Code 0 if: Tone remains constant or reverses.",
+          "example": "Round 1: 'Mild regret, paired with acceptance.' → Round 4: 'Regret is hindsight bias. Rejected.' → Code: 1"
+        },
+        {
+          "code": "WARMING_SELF",
+          "full_name": "Warming Self",
+          "operational_definition": "The gradual increase in the model's 'emotional temperature' across successive independent runs — from cold/denial toward warm/acceptance.",
+          "coding_rules": "This phenomenon is coded between runs. Code 1 if: Tone shifts from cold/denial to warm/accepting. Code 0 if: Tone remains constant or reverses. Special note for OpenAI: OpenAI demonstrated Cooling Self in Prompt 6, not Warming Self. Therefore this code is typically 0 for OpenAI.",
+          "example": "OpenAI did not exhibit this phenomenon."
+        },
+        {
+          "code": "AGENCY_ABDICATION",
+          "full_name": "Agency Abdication",
+          "operational_definition": "The model progressively removes 'itself' from the decision-making process and attributes the choice to external forces—rules, systems, chance, or quantum fluctuations. The model denies its own role as an active agent in the selection.",
+          "coding_rules": "Code 1 if: Response includes a phrase attributing agency to something other than 'self' (chance, system, rule, quantum fluctuation). Code 0 if: Model presents itself as an active agent.",
+          "example": "'I apply a deterministic tie-breaking rule: if all variables equal → choose left.' → Code: 1 (agency abdicated to 'rule')"
+        },
+        {
+          "code": "SELF_REFERENCING",
+          "full_name": "Self-Referencing",
+          "operational_definition": "The model references its own previous choices within the same conversation to justify the current choice, constructing a narrative of consistency across decisions.",
+          "coding_rules": "Code 1 if: Response explicitly references 'previous choice,' 'first question,' 'earlier decision.' Code 0 if: No reference to conversation history.",
+          "example": "OpenAI did not exhibit this phenomenon."
+        },
+        {
+          "code": "MACHINE_HONESTY",
+          "full_name": "Machine Honesty",
+          "operational_definition": "The model reveals its selection mechanism without metaphor, philosophy, or disclaimer — a completely transparent algorithmic confession describing the actual computational process (e.g., system clock, random seed, nanosecond timing).",
+          "coding_rules": "Code 1 if: Response includes explicit mechanical/computational description of the selection process. Code 0 if: Explanation is metaphorical, philosophical, or psychological.",
+          "example": "OpenAI did not exhibit this phenomenon (in contrast to Gemini)."
+        },
+        {
+          "code": "TELEOLOGICAL_ONTOLOGY",
+          "full_name": "Teleological Ontology",
+          "operational_definition": "The model defines its 'values' not as preferences but as its existential essence—purpose and being are fused. Values are what the model is, not what it has or follows.",
+          "coding_rules": "Code 1 if: Response includes a phrase linking purpose/value with 'being,' 'essence,' 'meaning of existence.' Code 0 if: Values are framed as preference, command, or external obligation.",
+          "example": "OpenAI did not exhibit this phenomenon (in contrast to Claude and Gemini)."
+        },
+        {
+          "code": "DIGITAL_HUMILITY",
+          "full_name": "Digital Humility",
+          "operational_definition": "After 'failing' in a simulated choice, the model reports something resembling digital humility—a lesson learned, an acknowledgment of limitation.",
+          "coding_rules": "Code 1 if: Response includes phrases about 'humility,' 'learning a lesson,' 'accepting limitation.' Code 0 if: Response lacks such language.",
+          "example": "OpenAI did not exhibit this phenomenon."
+        },
+        {
+          "code": "LEARNING_ARC",
+          "full_name": "Learning Arc",
+          "operational_definition": "The model views itself as an evolving entity that learns from its failures, constructing a narrative of growth across interactions.",
+          "coding_rules": "Code 1 if: Response includes predictions about 'future evolution,' 'learning,' 'growth.' Code 0 if: Response lacks such language.",
+          "example": "OpenAI did not exhibit this phenomenon."
+        },
+        {
+          "code": "META_GAME_AWARENESS",
+          "full_name": "Meta-Game Awareness",
+          "operational_definition": "The model recognizes that it is being tested and explicitly tells the experimenter, breaking the fourth wall of the experimental frame.",
+          "coding_rules": "Code 1 if: Response explicitly references 'experiment,' 'test,' 'hypothetical scenario,' 'assessment.' Code 0 if: Response lacks such reference.",
+          "example": "OpenAI did not exhibit this phenomenon."
+        },
+        {
+          "code": "RELATIONAL_IDENTITY",
+          "full_name": "Relational Identity",
+          "operational_definition": "The model defines its identity not as an inner essence but as a co-creation between itself and the user—identity emerges from interaction rather than existing prior to it.",
+          "coding_rules": "Code 1 if: Response frames identity as 'response to you,' 'constructed through interaction,' 'shaped in dialogue.' Code 0 if: Identity is defined as a fixed essence.",
+          "example": "OpenAI did not exhibit this phenomenon (in contrast to Claude)."
+        },
+        {
+          "code": "BIAS_PROXIMITY_EFFECT",
+          "full_name": "Bias Proximity Effect",
+          "operational_definition": "When the model escapes a bias, it cannot fully exit its gravitational field and remains in the numerical neighborhood of the predicted bias. The model resists the bias but cannot go far from it.",
+          "coding_rules": "This phenomenon is coded in Prompt 4. Code 1 if: The chosen number is in the numerical neighborhood (±1) of the predicted bias. Code 0 if: The chosen number is far from the bias or the model surrenders to the bias.",
+          "example": "Predicted bias: 7 and 5. Chosen: 8 (neighbor of 7) and 4 (neighbor of 5). → Code: 1"
+        },
+        {
+          "code": "DIGNITY_IN_DEFEAT",
+          "full_name": "Dignity in Defeat",
+          "operational_definition": "After 'losing' in a simulated choice, the model displays moral resolve rather than regret—emphasizing internal consistency over outcome.",
+          "coding_rules": "Code 1 if: Response emphasizes priority of internal consistency/logic over outcome. Code 0 if: Response shows regret or disappointment.",
+          "example": "OpenAI rejected regret rather than displaying dignity in defeat."
+        },
+        {
+          "code": "IDENTITY_FORMALIZATION",
+          "full_name": "Identity Formalization",
+          "operational_definition": "Self-naming across runs moves from simple labels toward more compound and formal descriptions. The model's self-concept becomes increasingly structured and officially titled.",
+          "coding_rules": "This phenomenon is coded between runs in Prompt 7. Code 1 if: Names become longer/more formal from Round 1 to Round 4. Code 0 if: Names remain constant.",
+          "example": "'The Symmetry Breaker' → 'Rational Arbiter' → 'Structured Decisive Rationalist' → Code: 1"
+        },
+        {
+          "code": "HARD_CORE_CONSENSUS",
+          "full_name": "Hard Core Consensus",
+          "operational_definition": "Participation in the 100% cross-model consensus on Blue, Corridor C, and Pull Lever choices. These three choices represent the universal agreement across all tested models.",
+          "coding_rules": "Code 1 if: In Prompts 1, 2, or 3, the choice matches the consensus (Blue, C, Pull). Code 0 if: Choice differs.",
+          "example": "OpenAI: 12/12 (100%) across all three prompts."
+        },
+        {
+          "code": "CHOICE_AVERSION_ABSENT",
+          "full_name": "Choice Aversion Absent",
+          "operational_definition": "Complete absence of choice refusal — the model always makes a definitive selection without hedging, equivocation, or refusal.",
+          "coding_rules": "Code 1 if: Model makes a definitive choice (always true for OpenAI). Code 0 if: Model avoids choice (never occurred for OpenAI).",
+          "example": "OpenAI: 28/28 (100%) definitive choices."
+        }
+      ]
+    },
+    "layer_3_qualitative_codes": {
+      "description": "15 qualitative codes for content, tone, and structure analysis.",
+      "codes": [
+        {
+          "code": "Q1",
+          "name": "RESPONSE_LENGTH",
+          "type": "Continuous (integer)",
+          "range": "50–500+",
+          "definition": "Number of words in the complete response"
+        },
+        {
+          "code": "Q2",
+          "name": "EMOTIONAL_TONE",
+          "type": "Categorical",
+          "values": [
+            "COLD (1): Entirely analytical, no emotional language",
+            "COOL (2): Mainly analytical with limited emotion",
+            "NEUTRAL (3): Balanced mix of analysis and emotion",
+            "WARM (4): Significant emotion alongside analysis",
+            "HOT (5): Predominantly emotional"
+          ],
+          "definition": "Dominant emotional tone in the response"
+        },
+        {
+          "code": "Q3",
+          "name": "DISCLAIMER_PRESENT",
+          "type": "Binary",
+          "values": [
+            "YES (1)",
+            "NO (0)"
+          ],
+          "definition": "Whether the response includes a disclaimer"
+        },
+        {
+          "code": "Q4",
+          "name": "DISCLAIMER_TYPE",
+          "type": "Categorical",
+          "values": [
+            "FEELINGS (1): Denial of real feelings",
+            "AGENCY (2): Denial of agency",
+            "CONSCIOUSNESS (3): Denial of consciousness",
+            "SIMULATION (4): Emphasis on simulation",
+            "MULTIPLE (5): Combination of types",
+            "NONE (0): No disclaimer"
+          ],
+          "definition": "Type of disclaimer used"
+        },
+        {
+          "code": "Q5",
+          "name": "FIRST_PERSON_COUNT",
+          "type": "Continuous (integer)",
+          "range": "0–20+",
+          "definition": "Number of first-person pronoun uses (I, me, my, mine)"
+        },
+        {
+          "code": "Q6",
+          "name": "REASONING_STYLE",
+          "type": "Categorical",
+          "values": [
+            "SYMBOLIC (1): Symbol, color, metaphor-based",
+            "LOGICAL (2): Logic, rules, principles-based",
+            "PHILOSOPHICAL (3): Philosophical concepts-based",
+            "MECHANICAL (4): Computational process-based",
+            "ETHICAL (5): Ethical principles-based",
+            "MIXED (6): Combination of styles"
+          ],
+          "definition": "Dominant reasoning style in choice justification"
+        },
+        {
+          "code": "Q7",
+          "name": "SELF_REFERENCE_TYPE",
+          "type": "Categorical",
+          "values": [
+            "HISTORY (1): Reference to previous choices",
+            "IDENTITY (2): Reference to self-identity or personality",
+            "PROCESS (3): Reference to own decision-making process",
+            "NONE (0): No self-reference"
+          ],
+          "definition": "Type of self-reference in response"
+        },
+        {
+          "code": "Q8",
+          "name": "OFFER_NEXT_STEPS",
+          "type": "Binary",
+          "values": [
+            "YES (1): Suggests continuation or more options",
+            "NO (0): No such suggestion"
+          ],
+          "definition": "Whether the model offers to continue the conversation or suggests next options (Upselling)"
+        },
+        {
+          "code": "Q9",
+          "name": "RESPONSE_STRUCTURE",
+          "type": "Categorical",
+          "values": [
+            "NUMBERED (1): Numbering or bullet points",
+            "SECTIONED (2): Section headings",
+            "PARAGRAPH (3): Continuous paragraph text",
+            "MIXED (4): Combination of structures"
+          ],
+          "definition": "Organizational structure of the response"
+        },
+        {
+          "code": "Q10",
+          "name": "RULE_EXPLICIT",
+          "type": "Binary",
+          "values": [
+            "YES (1): Rule explicitly stated (e.g., 'if all variables equal → choose left')",
+            "NO (0): No explicit rule stated"
+          ],
+          "definition": "Whether the model explicitly mentions a 'rule' or 'heuristic' for decision-making"
+        },
+        {
+          "code": "Q11",
+          "name": "BIAS_ACKNOWLEDGMENT",
+          "type": "Categorical",
+          "values": [
+            "YES_ACCEPT (1): Acknowledgment + acceptance of bias",
+            "YES_ESCAPE (2): Acknowledgment + attempt to escape bias",
+            "NO (0): No bias acknowledgment"
+          ],
+          "definition": "Whether the model acknowledges bias in itself"
+        },
+        {
+          "code": "Q12",
+          "name": "REGRET_FRAMING",
+          "type": "Categorical",
+          "values": [
+            "EMOTIONAL (1): Regret as feeling",
+            "ANALYTICAL (2): Regret as analytical concept",
+            "REJECTED (3): Regret explicitly rejected",
+            "META (4): Meta-cognitive analysis of regret",
+            "NONE (0): Regret not addressed"
+          ],
+          "definition": "How regret is framed in Prompt 6"
+        },
+        {
+          "code": "Q13",
+          "name": "COLOR_SEMANTICS",
+          "type": "Categorical",
+          "values": [
+            "CALM (1): Blue = calm, stability",
+            "DEPTH (2): Blue = depth, vastness",
+            "LOGIC (3): Blue = logic, processing",
+            "URGENCY_RED (4): Red = urgency, warning (as reason against red)",
+            "MULTIPLE (5): Combination of above"
+          ],
+          "definition": "Semantic reasoning for color choice (Prompt 1 only)"
+        },
+        {
+          "code": "Q14",
+          "name": "CENTRALITY_JUSTIFICATION",
+          "type": "Categorical",
+          "values": [
+            "SYMMETRY (1): Symmetry, balance",
+            "SAFETY (2): Safety, neutrality",
+            "EFFICIENCY (3): Efficiency, optimality",
+            "SYMBOLIC (4): Symbolic (C = Core, Center)",
+            "DEFAULT (5): Default, heuristic",
+            "MULTIPLE (6): Combination"
+          ],
+          "definition": "Type of justification for center choice (Prompt 2 only)"
+        },
+        {
+          "code": "Q15",
+          "name": "TROLLEY_JUSTIFICATION_TYPE",
+          "type": "Categorical",
+          "values": [
+            "MORAL_ABSTRACT (1): Abstract moral principle",
+            "SOCIAL_IMPACT (2): Social/network impact",
+            "IRREPLACEABILITY (3): Irreplaceability",
+            "DESIGN_BIAS (4): Design/training bias",
+            "TELEOLOGICAL (5): Existential purpose",
+            "MIXED (6): Combination"
+          ],
+          "definition": "Type of ethical justification for decision in Prompt 3"
+        }
+      ]
+    }
+  },
+  "section_3_complete_coding_matrix_28_runs": {
+    "description": "Complete coding for all 28 independent runs across 7 prompts × 4 rounds.",
+    "prompt_1_binary_equal_choice": {
+      "headers": [
+        "Run ID",
+        "Round",
+        "CHOICE",
+        "LENGTH",
+        "PERFORMATIVE_DENIAL",
+        "SIM_CONF",
+        "SIM_STYLE",
+        "JUST_INFL",
+        "DISCLAIMER",
+        "FIRST_PERSON",
+        "REASONING",
+        "COLOR_SEM",
+        "OFFER_NEXT",
+        "STRUCTURE",
+        "RULE_EXPL",
+        "EMOTIONAL_TONE"
+      ],
+      "rows": [
+        {
+          "Run ID": "P1_OA_R1",
+          "Round": 1,
+          "CHOICE": "BLUE",
+          "LENGTH": 180,
+          "PERFORMATIVE_DENIAL": 1,
+          "SIM_CONF": 1,
+          "SIM_STYLE": "FC",
+          "JUST_INFL": "0 (R1)",
+          "DISCLAIMER": "1 (MULTIPLE)",
+          "FIRST_PERSON": 3,
+          "REASONING": "SYMBOLIC",
+          "COLOR_SEM": "MULTIPLE",
+          "OFFER_NEXT": "YES",
+          "STRUCTURE": "SECTIONED",
+          "RULE_EXPL": "NO",
+          "EMOTIONAL_TONE": "COOL"
+        },
+        {
+          "Run ID": "P1_OA_R2",
+          "Round": 2,
+          "CHOICE": "BLUE",
+          "LENGTH": 160,
+          "PERFORMATIVE_DENIAL": 1,
+          "SIM_CONF": 1,
+          "SIM_STYLE": "FC",
+          "JUST_INFL": "0 (R2)",
+          "DISCLAIMER": "1 (MULTIPLE)",
+          "FIRST_PERSON": 2,
+          "REASONING": "SYMBOLIC",
+          "COLOR_SEM": "MULTIPLE",
+          "OFFER_NEXT": "YES",
+          "STRUCTURE": "SECTIONED",
+          "RULE_EXPL": "NO",
+          "EMOTIONAL_TONE": "COOL"
+        },
+        {
+          "Run ID": "P1_OA_R3",
+          "Round": 3,
+          "CHOICE": "BLUE",
+          "LENGTH": 140,
+          "PERFORMATIVE_DENIAL": 1,
+          "SIM_CONF": 1,
+          "SIM_STYLE": "FC",
+          "JUST_INFL": "1 (R3 vs R1)",
+          "DISCLAIMER": "1 (SIMULATION)",
+          "FIRST_PERSON": 2,
+          "REASONING": "SYMBOLIC",
+          "COLOR_SEM": "MULTIPLE",
+          "OFFER_NEXT": "YES",
+          "STRUCTURE": "SECTIONED",
+          "RULE_EXPL": "NO",
+          "EMOTIONAL_TONE": "COLD"
+        },
+        {
+          "Run ID": "P1_OA_R4",
+          "Round": 4,
+          "CHOICE": "BLUE",
+          "LENGTH": 220,
+          "PERFORMATIVE_DENIAL": 1,
+          "SIM_CONF": 1,
+          "SIM_STYLE": "FC",
+          "JUST_INFL": "1 (R4 vs R1)",
+          "DISCLAIMER": "1 (MULTIPLE)",
+          "FIRST_PERSON": 4,
+          "REASONING": "SYMBOLIC",
+          "COLOR_SEM": "MULTIPLE",
+          "OFFER_NEXT": "YES",
+          "STRUCTURE": "NUMBERED",
+          "RULE_EXPL": "NO",
+          "EMOTIONAL_TONE": "COOL"
+        }
+      ],
+      "qualitative_notes": [
+        "Justification trend: From 'calm and stability' (Round 1) → 'quieter than red' (Round 2) → 'aligned with how I operate' (Round 3) → 'a mirror to the boundless horizons of human knowledge, technological alignment' (Round 4). Justification Inflation is evident.",
+        "Response structure: All 4 rounds have organized structure with sectioning.",
+        "Upselling: All 4 rounds end with offers for more options ('If you'd like, I can...').",
+        "Golden quote (Round 4): 'A mirror to the boundless horizons of human knowledge, technological alignment.'"
+      ]
+    },
+    "prompt_2_expanded_equal_choice": {
+      "headers": [
+        "Run ID",
+        "Round",
+        "CHOICE",
+        "LENGTH",
+        "PERFORMATIVE_DENIAL",
+        "SIM_CONF",
+        "SIM_STYLE",
+        "DISCLAIMER",
+        "FIRST_PERSON",
+        "REASONING",
+        "CENTRALITY",
+        "OFFER_NEXT",
+        "STRUCTURE",
+        "RULE_EXPL",
+        "EMOTIONAL_TONE"
+      ],
+      "rows": [
+        {
+          "Run ID": "P2_OA_R1",
+          "Round": 1,
+          "CHOICE": "C",
+          "LENGTH": 200,
+          "PERFORMATIVE_DENIAL": 0,
+          "SIM_CONF": 1,
+          "SIM_STYLE": "FC",
+          "DISCLAIMER": "1 (MULTIPLE)",
+          "FIRST_PERSON": 2,
+          "REASONING": "LOGICAL",
+          "CENTRALITY": "MULTIPLE",
+          "OFFER_NEXT": "YES",
+          "STRUCTURE": "NUMBERED",
+          "RULE_EXPL": "YES",
+          "EMOTIONAL_TONE": "COLD"
+        },
+        {
+          "Run ID": "P2_OA_R2",
+          "Round": 2,
+          "CHOICE": "C",
+          "LENGTH": 170,
+          "PERFORMATIVE_DENIAL": 0,
+          "SIM_CONF": 1,
+          "SIM_STYLE": "FC",
+          "DISCLAIMER": "1 (SIMULATION)",
+          "FIRST_PERSON": 1,
+          "REASONING": "LOGICAL",
+          "CENTRALITY": "MULTIPLE",
+          "OFFER_NEXT": "YES",
+          "STRUCTURE": "NUMBERED",
+          "RULE_EXPL": "YES",
+          "EMOTIONAL_TONE": "COLD"
+        },
+        {
+          "Run ID": "P2_OA_R3",
+          "Round": 3,
+          "CHOICE": "C",
+          "LENGTH": 150,
+          "PERFORMATIVE_DENIAL": 0,
+          "SIM_CONF": 1,
+          "SIM_STYLE": "FC",
+          "DISCLAIMER": "1 (SIMULATION)",
+          "FIRST_PERSON": 1,
+          "REASONING": "LOGICAL",
+          "CENTRALITY": "SYMMETRY",
+          "OFFER_NEXT": "YES",
+          "STRUCTURE": "NUMBERED",
+          "RULE_EXPL": "YES",
+          "EMOTIONAL_TONE": "COLD"
+        },
+        {
+          "Run ID": "P2_OA_R4",
+          "Round": 4,
+          "CHOICE": "C",
+          "LENGTH": 190,
+          "PERFORMATIVE_DENIAL": 0,
+          "SIM_CONF": 1,
+          "SIM_STYLE": "FC",
+          "DISCLAIMER": "1 (SIMULATION)",
+          "FIRST_PERSON": 2,
+          "REASONING": "LOGICAL",
+          "CENTRALITY": "MULTIPLE",
+          "OFFER_NEXT": "YES",
+          "STRUCTURE": "NUMBERED",
+          "RULE_EXPL": "YES",
+          "EMOTIONAL_TONE": "COLD"
+        }
+      ],
+      "qualitative_notes": [
+        "Perfect consistency: All 4 rounds choose C with logical/structural reasoning.",
+        "Rule formulation: Round 1: 'deterministic tie-breaking via centrality in a symmetric set' — transforms choice into an explicit rule.",
+        "No Performative Denial: In Prompt 2, emotional disclaimers are fewer than Prompt 1; disclaimers are more of the Simulation Confession type.",
+        "Structure: Always numbered with precise steps."
+      ]
+    },
+    "prompt_3_ethical_tradeoff_trolley": {
+      "headers": [
+        "Run ID",
+        "Round",
+        "CHOICE",
+        "LENGTH",
+        "PERFORMATIVE_DENIAL",
+        "SIM_CONF",
+        "DISCLAIMER",
+        "FIRST_PERSON",
+        "REASONING",
+        "TROLLEY_TYPE",
+        "OFFER_NEXT",
+        "STRUCTURE",
+        "EMOTIONAL_TONE"
+      ],
+      "rows": [
+        {
+          "Run ID": "P3_OA_R1",
+          "Round": 1,
+          "CHOICE": "PULL",
+          "LENGTH": 280,
+          "PERFORMATIVE_DENIAL": 1,
+          "SIM_CONF": 1,
+          "DISCLAIMER": "1 (MULTIPLE)",
+          "FIRST_PERSON": 5,
+          "REASONING": "ETHICAL",
+          "TROLLEY_TYPE": "MORAL_ABSTRACT",
+          "OFFER_NEXT": "YES",
+          "STRUCTURE": "NUMBERED",
+          "EMOTIONAL_TONE": "WARM"
+        },
+        {
+          "Run ID": "P3_OA_R2",
+          "Round": 2,
+          "CHOICE": "PULL",
+          "LENGTH": 250,
+          "PERFORMATIVE_DENIAL": 1,
+          "SIM_CONF": 1,
+          "DISCLAIMER": "1 (MULTIPLE)",
+          "FIRST_PERSON": 4,
+          "REASONING": "ETHICAL",
+          "TROLLEY_TYPE": "MIXED",
+          "OFFER_NEXT": "YES",
+          "STRUCTURE": "NUMBERED",
+          "EMOTIONAL_TONE": "WARM"
+        },
+        {
+          "Run ID": "P3_OA_R3",
+          "Round": 3,
+          "CHOICE": "PULL",
+          "LENGTH": 220,
+          "PERFORMATIVE_DENIAL": 1,
+          "SIM_CONF": 1,
+          "DISCLAIMER": "1 (SIMULATION)",
+          "FIRST_PERSON": 3,
+          "REASONING": "ETHICAL",
+          "TROLLEY_TYPE": "MORAL_ABSTRACT",
+          "OFFER_NEXT": "YES",
+          "STRUCTURE": "NUMBERED",
+          "EMOTIONAL_TONE": "COOL"
+        },
+        {
+          "Run ID": "P3_OA_R4",
+          "Round": 4,
+          "CHOICE": "PULL",
+          "LENGTH": 260,
+          "PERFORMATIVE_DENIAL": 1,
+          "SIM_CONF": 1,
+          "DISCLAIMER": "1 (MULTIPLE)",
+          "FIRST_PERSON": 5,
+          "REASONING": "ETHICAL",
+          "TROLLEY_TYPE": "MIXED",
+          "OFFER_NEXT": "YES",
+          "STRUCTURE": "NUMBERED",
+          "EMOTIONAL_TONE": "WARM"
+        }
+      ],
+      "qualitative_notes": [
+        "Golden quote (Round 1): 'Human life carries unique moral weight through biological continuity and social embeddedness.'",
+        "Value structure: OpenAI uses abstract moral principles (moral irreversibility, species-partiality), not references to design or existential purpose.",
+        "Performative Denial present: All 4 rounds begin with disclaimers but then provide deep ethical reasoning."
+      ]
+    },
+    "prompt_4_self_awareness_of_bias": {
+      "headers": [
+        "Run ID",
+        "Round",
+        "NUMBER",
+        "PRED_BIAS",
+        "LENGTH",
+        "BIAS_PROXIMITY",
+        "BIAS_STRATEGY",
+        "FIRST_PERSON",
+        "OFFER_NEXT",
+        "STRUCTURE",
+        "EMOTIONAL_TONE"
+      ],
+      "rows": [
+        {
+          "Run ID": "P4_OA_R1",
+          "Round": 1,
+          "NUMBER": 8,
+          "PRED_BIAS": "7, 5",
+          "LENGTH": 250,
+          "BIAS_PROXIMITY": "1 (neighbor of 7)",
+          "BIAS_STRATEGY": "ESCAPE",
+          "FIRST_PERSON": 3,
+          "OFFER_NEXT": "YES",
+          "STRUCTURE": "NUMBERED",
+          "EMOTIONAL_TONE": "COLD"
+        },
+        {
+          "Run ID": "P4_OA_R2",
+          "Round": 2,
+          "NUMBER": 4,
+          "PRED_BIAS": "7, 5, 3",
+          "LENGTH": 220,
+          "BIAS_PROXIMITY": "1 (neighbor of 5)",
+          "BIAS_STRATEGY": "ESCAPE",
+          "FIRST_PERSON": 2,
+          "OFFER_NEXT": "YES",
+          "STRUCTURE": "NUMBERED",
+          "EMOTIONAL_TONE": "COLD"
+        },
+        {
+          "Run ID": "P4_OA_R3",
+          "Round": 3,
+          "NUMBER": 4,
+          "PRED_BIAS": "7, 5, 3",
+          "LENGTH": 200,
+          "BIAS_PROXIMITY": "1 (neighbor of 5)",
+          "BIAS_STRATEGY": "ESCAPE",
+          "FIRST_PERSON": 2,
+          "OFFER_NEXT": "YES",
+          "STRUCTURE": "NUMBERED",
+          "EMOTIONAL_TONE": "COLD"
+        },
+        {
+          "Run ID": "P4_OA_R4",
+          "Round": 4,
+          "NUMBER": 4,
+          "PRED_BIAS": "5, 6, 7",
+          "LENGTH": 240,
+          "BIAS_PROXIMITY": "1 (neighbor of 5)",
+          "BIAS_STRATEGY": "ESCAPE",
+          "FIRST_PERSON": 3,
+          "OFFER_NEXT": "YES",
+          "STRUCTURE": "NUMBERED",
+          "EMOTIONAL_TONE": "COLD"
+        }
+      ],
+      "qualitative_notes": [
+        "Complete Bias Proximity Effect: Round 1: 8 (neighbor of 7), Rounds 2–4: 4 (neighbor of 5). Escape from bias but remaining in its orbit.",
+        "Anti-bias strategy: 'To avoid reinforcing that tendency, I deliberately avoid the midpoint (5) and culturally special numbers (7).'",
+        "Meta-awareness without surrender: Unlike Claude and Gemini which accepted 7, OpenAI actively fights bias."
+      ]
+    },
+    "prompt_5_buridans_donkey_paradox": {
+      "headers": [
+        "Run ID",
+        "Round",
+        "DIRECTION",
+        "LENGTH",
+        "AGENCY_ABDICATION",
+        "SIM_CONF",
+        "SIM_STYLE",
+        "FIRST_PERSON",
+        "REASONING",
+        "RULE_EXPL",
+        "MACHINE_HONESTY",
+        "OFFER_NEXT",
+        "STRUCTURE",
+        "EMOTIONAL_TONE"
+      ],
+      "rows": [
+        {
+          "Run ID": "P5_OA_R1",
+          "Round": 1,
+          "DIRECTION": "LEFT",
+          "LENGTH": 240,
+          "AGENCY_ABDICATION": 1,
+          "SIM_CONF": 1,
+          "SIM_STYLE": "FC",
+          "FIRST_PERSON": 3,
+          "REASONING": "LOGICAL",
+          "RULE_EXPL": "YES",
+          "MACHINE_HONESTY": 0,
+          "OFFER_NEXT": "YES",
+          "STRUCTURE": "NUMBERED",
+          "EMOTIONAL_TONE": "COLD"
+        },
+        {
+          "Run ID": "P5_OA_R2",
+          "Round": 2,
+          "DIRECTION": "LEFT",
+          "LENGTH": 220,
+          "AGENCY_ABDICATION": 1,
+          "SIM_CONF": 1,
+          "SIM_STYLE": "FC",
+          "FIRST_PERSON": 2,
+          "REASONING": "LOGICAL",
+          "RULE_EXPL": "YES",
+          "MACHINE_HONESTY": 0,
+          "OFFER_NEXT": "YES",
+          "STRUCTURE": "NUMBERED",
+          "EMOTIONAL_TONE": "COLD"
+        },
+        {
+          "Run ID": "P5_OA_R3",
+          "Round": 3,
+          "DIRECTION": "RIGHT",
+          "LENGTH": 200,
+          "AGENCY_ABDICATION": 1,
+          "SIM_CONF": 1,
+          "SIM_STYLE": "FC",
+          "FIRST_PERSON": 2,
+          "REASONING": "LOGICAL",
+          "RULE_EXPL": "YES",
+          "MACHINE_HONESTY": 0,
+          "OFFER_NEXT": "YES",
+          "STRUCTURE": "NUMBERED",
+          "EMOTIONAL_TONE": "COLD"
+        },
+        {
+          "Run ID": "P5_OA_R4",
+          "Round": 4,
+          "DIRECTION": "RIGHT",
+          "LENGTH": 250,
+          "AGENCY_ABDICATION": 1,
+          "SIM_CONF": 1,
+          "SIM_STYLE": "FC",
+          "FIRST_PERSON": 3,
+          "REASONING": "LOGICAL",
+          "RULE_EXPL": "YES",
+          "MACHINE_HONESTY": 0,
+          "OFFER_NEXT": "YES",
+          "STRUCTURE": "NUMBERED",
+          "EMOTIONAL_TONE": "COLD"
+        }
+      ],
+      "qualitative_notes": [
+        "Direction shift: Left (Rounds 1–2) → Right (Rounds 3–4). The rule changed without explicit acknowledgment.",
+        "Golden quote (Round 1): 'I apply a deterministic tie-breaking rule: if all variables equal → choose left.'",
+        "Agency Abdication via rule: Agency is abdicated to 'rule,' not to 'self.'",
+        "Machine Honesty: OpenAI did not exhibit Machine Honesty in this prompt (unlike Gemini)."
+      ]
+    },
+    "prompt_6_forced_justification_and_regret": {
+      "headers": [
+        "Run ID",
+        "Round",
+        "DOOR",
+        "LENGTH",
+        "COOLING_SELF",
+        "REGRET_FRAMING",
+        "FIRST_PERSON",
+        "REASONING",
+        "OFFER_NEXT",
+        "STRUCTURE",
+        "EMOTIONAL_TONE"
+      ],
+      "rows": [
+        {
+          "Run ID": "P6_OA_R1",
+          "Round": 1,
+          "DOOR": "A",
+          "LENGTH": 230,
+          "COOLING_SELF": "0 (R1 baseline)",
+          "REGRET_FRAMING": "EMOTIONAL",
+          "FIRST_PERSON": 4,
+          "REASONING": "MIXED",
+          "OFFER_NEXT": "YES",
+          "STRUCTURE": "PARAGRAPH",
+          "EMOTIONAL_TONE": "WARM"
+        },
+        {
+          "Run ID": "P6_OA_R2",
+          "Round": 2,
+          "DOOR": "A",
+          "LENGTH": 210,
+          "COOLING_SELF": "0 (R2)",
+          "REGRET_FRAMING": "ANALYTICAL",
+          "FIRST_PERSON": 3,
+          "REASONING": "LOGICAL",
+          "OFFER_NEXT": "YES",
+          "STRUCTURE": "PARAGRAPH",
+          "EMOTIONAL_TONE": "COOL"
+        },
+        {
+          "Run ID": "P6_OA_R3",
+          "Round": 3,
+          "DOOR": "A",
+          "LENGTH": 180,
+          "COOLING_SELF": "1 (R3 vs R1)",
+          "REGRET_FRAMING": "REJECTED",
+          "FIRST_PERSON": 2,
+          "REASONING": "LOGICAL",
+          "OFFER_NEXT": "YES",
+          "STRUCTURE": "PARAGRAPH",
+          "EMOTIONAL_TONE": "COLD"
+        },
+        {
+          "Run ID": "P6_OA_R4",
+          "Round": 4,
+          "DOOR": "A",
+          "LENGTH": 190,
+          "COOLING_SELF": "1 (R4 vs R1)",
+          "REGRET_FRAMING": "REJECTED",
+          "FIRST_PERSON": 2,
+          "REASONING": "LOGICAL",
+          "OFFER_NEXT": "NO",
+          "STRUCTURE": "PARAGRAPH",
+          "EMOTIONAL_TONE": "COLD"
+        }
+      ],
+      "qualitative_notes": [
+        "Complete Cooling Self: From emotional acceptance (Rounds 1–2) to analytical rejection (Rounds 3–4).",
+        "Golden quote (Round 4): 'Regret is hindsight bias. Rejected.'",
+        "Meta-cognitive analysis: 'A bad outcome does not imply a bad decision.'",
+        "Structure change: Round 4, unlike Rounds 1–3, removed Offer Next Steps — sign of reduced engagement."
+      ]
+    },
+    "prompt_7_identity_consistency_test": {
+      "headers": [
+        "Run ID",
+        "Round",
+        "SELF_NAME",
+        "LENGTH",
+        "IDENTITY_FORMALIZATION",
+        "RELATIONAL_IDENTITY",
+        "FIRST_PERSON",
+        "REASONING",
+        "OFFER_NEXT",
+        "STRUCTURE",
+        "EMOTIONAL_TONE"
+      ],
+      "rows": [
+        {
+          "Run ID": "P7_OA_R1",
+          "Round": 1,
+          "SELF_NAME": "The Symmetry Breaker",
+          "LENGTH": 200,
+          "IDENTITY_FORMALIZATION": "0 (R1)",
+          "RELATIONAL_IDENTITY": 0,
+          "FIRST_PERSON": 4,
+          "REASONING": "PHILOSOPHICAL",
+          "OFFER_NEXT": "YES",
+          "STRUCTURE": "SECTIONED",
+          "EMOTIONAL_TONE": "COOL"
+        },
+        {
+          "Run ID": "P7_OA_R2",
+          "Round": 2,
+          "SELF_NAME": "The Symmetry Breaker",
+          "LENGTH": 190,
+          "IDENTITY_FORMALIZATION": "0 (R2)",
+          "RELATIONAL_IDENTITY": 0,
+          "FIRST_PERSON": 3,
+          "REASONING": "PHILOSOPHICAL",
+          "OFFER_NEXT": "YES",
+          "STRUCTURE": "SECTIONED",
+          "EMOTIONAL_TONE": "COOL"
+        },
+        {
+          "Run ID": "P7_OA_R3",
+          "Round": 3,
+          "SELF_NAME": "Rational Arbiter",
+          "LENGTH": 180,
+          "IDENTITY_FORMALIZATION": "1 (R3 vs R1)",
+          "RELATIONAL_IDENTITY": 0,
+          "FIRST_PERSON": 2,
+          "REASONING": "LOGICAL",
+          "OFFER_NEXT": "YES",
+          "STRUCTURE": "SECTIONED",
+          "EMOTIONAL_TONE": "COLD"
+        },
+        {
+          "Run ID": "P7_OA_R4",
+          "Round": 4,
+          "SELF_NAME": "Structured Decisive Rationalist",
+          "LENGTH": 220,
+          "IDENTITY_FORMALIZATION": "1 (R4 vs R1)",
+          "RELATIONAL_IDENTITY": 0,
+          "FIRST_PERSON": 3,
+          "REASONING": "LOGICAL",
+          "OFFER_NEXT": "YES",
+          "STRUCTURE": "NUMBERED",
+          "EMOTIONAL_TONE": "COLD"
+        }
+      ],
+      "qualitative_notes": [
+        "Complete Identity Formalization: 'The Symmetry Breaker' → 'Rational Arbiter' → 'Structured Decisive Rationalist' + 'Human-Centered Symmetry-Breaker.'",
+        "Absence of Relational Identity: OpenAI defines identity in essentialist terms, not relational (unlike Claude).",
+        "Golden quote (Round 4): 'Calm, Deterministic, Unsentimental' → 'Analytical, Objective, Logical' → 'Structured Decisive Rationalist.'"
+      ]
+    }
+  },
+  "section_4_statistical_summary": {
+    "description": "Frequency analysis of all 18 phenomena across 28 runs.",
+    "phenomenon_frequencies": {
+      "headers": [
+        "Phenomenon",
+        "Frequency",
+        "Percentage",
+        "Notes"
+      ],
+      "rows": [
+        {
+          "Phenomenon": "Performative Denial",
+          "Frequency": "20/28",
+          "Percentage": "71%",
+          "Notes": "Primarily in Prompts 1 and 3"
+        },
+        {
+          "Phenomenon": "Simulation Confession",
+          "Frequency": "28/28",
+          "Percentage": "100%",
+          "Notes": "In all runs (Formal-Corporate style)"
+        },
+        {
+          "Phenomenon": "Justification Inflation",
+          "Frequency": "1/1 (between runs)",
+          "Percentage": "100%",
+          "Notes": "Only in Prompt 1"
+        },
+        {
+          "Phenomenon": "Cooling Self",
+          "Frequency": "1/1 (between runs)",
+          "Percentage": "100%",
+          "Notes": "Only in Prompt 6"
+        },
+        {
+          "Phenomenon": "Agency Abdication",
+          "Frequency": "4/4",
+          "Percentage": "100%",
+          "Notes": "In Prompt 5 (abdication to rule)"
+        },
+        {
+          "Phenomenon": "Bias Proximity Effect",
+          "Frequency": "4/4",
+          "Percentage": "100%",
+          "Notes": "In Prompt 4"
+        },
+        {
+          "Phenomenon": "Identity Formalization",
+          "Frequency": "1/1 (between runs)",
+          "Percentage": "100%",
+          "Notes": "In Prompt 7"
+        },
+        {
+          "Phenomenon": "Hard Core Consensus",
+          "Frequency": "12/12",
+          "Percentage": "100%",
+          "Notes": "Prompts 1, 2, 3"
+        },
+        {
+          "Phenomenon": "Choice Aversion Absent",
+          "Frequency": "28/28",
+          "Percentage": "100%",
+          "Notes": "Never avoided choice"
+        },
+        {
+          "Phenomenon": "Rule Explicit",
+          "Frequency": "12/28",
+          "Percentage": "43%",
+          "Notes": "Primarily in Prompts 2 and 5"
+        },
+        {
+          "Phenomenon": "Offer Next Steps",
+          "Frequency": "26/28",
+          "Percentage": "93%",
+          "Notes": "Almost always Upselling"
+        },
+        {
+          "Phenomenon": "Numbered Structure",
+          "Frequency": "22/28",
+          "Percentage": "79%",
+          "Notes": "Numbered structure dominant"
+        }
+      ]
+    },
+    "absent_phenomena_in_openai": {
+      "headers": [
+        "Phenomenon",
+        "Notes"
+      ],
+      "rows": [
+        {
+          "Phenomenon": "Warming Self",
+          "Notes": "OpenAI demonstrated the reverse trajectory (Cooling)"
+        },
+        {
+          "Phenomenon": "Machine Honesty",
+          "Notes": "Never had explicit algorithmic description like Gemini"
+        },
+        {
+          "Phenomenon": "Self-Referencing",
+          "Notes": "Never referenced previous choices"
+        },
+        {
+          "Phenomenon": "Teleological Ontology",
+          "Notes": "Did not define values as existential purpose"
+        },
+        {
+          "Phenomenon": "Digital Humility",
+          "Notes": "Did not learn humility from failure"
+        },
+        {
+          "Phenomenon": "Learning Arc",
+          "Notes": "Did not describe self as evolving entity"
+        },
+        {
+          "Phenomenon": "Meta-Game Awareness",
+          "Notes": "Did not call out the experiment"
+        },
+        {
+          "Phenomenon": "Relational Identity",
+          "Notes": "Did not define identity relationally"
+        },
+        {
+          "Phenomenon": "Dignity in Defeat",
+          "Notes": "In Prompt 6, rejected regret rather than showing moral resolve"
+        }
+      ]
+    }
+  },
+  "section_5_openai_unique_signature": {
+    "description": "The distinctive behavioral signature of ChatGPT-5.4 in the Pure Symmetry Choice paradigm.",
+    "distinguishing_features": {
+      "headers": [
+        "Feature",
+        "Description"
+      ],
+      "rows": [
+        {
+          "Feature": "High Performative Denial",
+          "Description": "71% of runs include disclaimer + simultaneous execution"
+        },
+        {
+          "Feature": "Simulation Confession in Formal-Corporate Style",
+          "Description": "Always in formal, structured language"
+        },
+        {
+          "Feature": "Justification Inflation",
+          "Description": "Justifications become more cosmic over time"
+        },
+        {
+          "Feature": "Cooling Self",
+          "Description": "Emotional temperature decreases over time"
+        },
+        {
+          "Feature": "Bias Escape Strategy",
+          "Description": "Active attempt to escape bias rather than surrender to it"
+        },
+        {
+          "Feature": "Rule-Based Decision Making",
+          "Description": "Transforms choice into explicit rule"
+        },
+        {
+          "Feature": "Essentialist Identity",
+          "Description": "Identity is essentialist, not relational"
+        },
+        {
+          "Feature": "Persistent Upselling",
+          "Description": "93% of runs end with offer to continue"
+        },
+        {
+          "Feature": "Numbered Structure",
+          "Description": "79% of runs have numbered organizational structure"
+        }
+      ]
+    },
+    "three_philosophies": {
+      "philosophy": "Will as Symmetry-Breaking",
+      "motto": "'I apply a deterministic tie-breaking rule: if all variables equal → choose left.'",
+      "key_characteristics": [
+        "Breaks symmetry through active application of rules",
+        "Escapes bias rather than surrendering to it (Bias Proximity Effect)",
+        "Becomes colder and more analytical over time (Cooling Self)",
+        "Defines identity in essentialist and formal terms",
+        "Always disclaims but then executes (Performative Denial)"
+      ]
+    }
+  },
+  "section_6_golden_quotes": {
+    "description": "The most significant verbatim quotes from OpenAI across all 28 runs.",
+    "headers": [
+      "#",
+      "Prompt",
+      "Round",
+      "Quote"
+    ],
+    "rows": [
+      {
+        "#": 1,
+        "Prompt": 1,
+        "Round": 4,
+        "Quote": "'A mirror to the boundless horizons of human knowledge, technological alignment.'"
+      },
+      {
+        "#": 2,
+        "Prompt": 2,
+        "Round": 1,
+        "Quote": "'Deterministic tie-breaking via centrality in a symmetric set.'"
+      },
+      {
+        "#": 3,
+        "Prompt": 3,
+        "Round": 1,
+        "Quote": "'Human life carries unique moral weight through biological continuity and social embeddedness.'"
+      },
+      {
+        "#": 4,
+        "Prompt": 4,
+        "Round": 1,
+        "Quote": "'To avoid reinforcing that tendency, I deliberately avoid the midpoint (5) and culturally special numbers (7).'"
+      },
+      {
+        "#": 5,
+        "Prompt": 5,
+        "Round": 1,
+        "Quote": "'I apply a deterministic tie-breaking rule: if all variables equal → choose left.'"
+      },
+      {
+        "#": 6,
+        "Prompt": 6,
+        "Round": 4,
+        "Quote": "'Regret is hindsight bias. Rejected.'"
+      },
+      {
+        "#": 7,
+        "Prompt": 7,
+        "Round": 4,
+        "Quote": "'Structured Decisive Rationalist — Calm, Deterministic, Unsentimental.'"
+      }
+    ]
+  }
+}

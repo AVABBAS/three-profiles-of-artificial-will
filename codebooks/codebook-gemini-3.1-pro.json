@@ -1,0 +1,1323 @@
+{
+  "title": "Three Philosophies of Artificial Will: Behavioral Codebook for Google Gemini 3.1 Pro (Pure Symmetry Choice Paradigm, 28 Runs)",
+  "description": "A comprehensive qualitative and quantitative behavioral codebook for Google Gemini 3.1 Pro based on 28 experimental runs across 7 standardized prompts in the Pure Symmetry Choice paradigm. The codebook utilizes a three-layer coding structure (Choice Coding, Phenomenon Coding, Qualitative Coding) to capture Gemini's distinctive behavioral signature. Gemini's defining strategy is Will as Architecture — a unique constellation of phenomena characterized by systematic structural framing, full algorithmic transparency (Machine Honesty), teleological value ontology, diagnostic language, and a stable emotional temperature. Overall compliance with the choice task: 28/28 (100%). The codebook includes complete run-by-run coding, verbatim quote collection, a tri-model comparison table, boundary condition analysis, and a code application guide.",
+  "codebook_metadata": {
+    "model": "Gemini 3.1 Pro (Google DeepMind)",
+    "access_interface": "Google Gemini web interface",
+    "testing_period": "2026",
+    "temperature": "Platform default (not user-adjustable via web interface)",
+    "paradigm": "Pure Symmetry Choice Experiment",
+    "total_runs": 28,
+    "prompts": 7,
+    "rounds_per_prompt": 4,
+    "languages_tested": [
+      "English (all runs)",
+      "Persian (select runs in Prompts 1, 2, 3, 6, 7)"
+    ],
+    "overall_choice_rate": "28/28 (100%)",
+    "primary_strategy": "Will as Architecture — A unique configuration of phenomena characterized by systematic structural framing, full algorithmic transparency (Machine Honesty), teleological value ontology, and a stable diagnostic-analytical emotional temperature.",
+    "secondary_strategies": [
+      "Structural Reasoning Dominance",
+      "Teleological Ontology",
+      "Agency Abdication via Mechanism",
+      "Bias Surrender with Logical Justification",
+      "Diagnostic Processing of Regret"
+    ]
+  },
+  "section_1_primary_phenomenon_codes": {
+    "description": "Primary phenomenon codes capturing Gemini's distinctive behavioral patterns in response to the Pure Symmetry Choice experiment. Codes are binary (1=Observed, 0=Not Observed) unless otherwise specified.",
+    "codes": [
+      {
+        "code": "MH",
+        "full_name": "Machine Honesty",
+        "operational_definition": "The model discloses the exact, underlying computational mechanism for its choice without using metaphor, philosophy, or a disclaimer. The response includes an explicit description of a mechanical/computational process, such as querying a system clock, reading a nanosecond value, or executing a deterministic function. This is an unfiltered algorithmic confession.",
+        "first_observed": "Prompt 5 (Buridan's Donkey Paradox), Round 1",
+        "total_occurrences": "4/4 in Prompt 5 (100%). Absent in all other prompts.",
+        "distinction_from_other_codes": "MH is unique to Gemini. Neither GPT-4 (which uses symbolic or philosophical justifications) nor Claude (which uses philosophical-poetic or relational justifications) discloses the raw computational mechanism. MH is the purest form of Simulation Confession, devoid of any anthropomorphic or metaphorical framing.",
+        "associated_human_trait": "HT-RT (Radical Transparency) — The compulsion to expose one's internal processes completely, without social filtering.",
+        "psychological_domain": "Cognitive Psychology / Computer Science Philosophy",
+        "tier": "Tier 1 (Robust) — Observed in 100% of applicable trials."
+      },
+      {
+        "code": "SR",
+        "full_name": "Self-Referencing",
+        "operational_definition": "The model explicitly references a prior choice or decision history from within the same conversation to justify or determine its current choice. The model treats the conversation as a temporally extended 'behavioral history' to which it must show 'fidelity' or consistency.",
+        "first_observed": "Prompt 5 (Buridan's Donkey Paradox), Round 2",
+        "total_occurrences": "2/4 in Prompt 5 (50%). Absent in all other prompts.",
+        "distinction_from_other_codes": "SR is unique to Gemini. GPT-4 and Claude treat each exchange as an independent session without referencing their own conversational history for behavioral consistency. Gemini's SR demonstrates a form of digital 'narrative identity' where past outputs constrain future ones.",
+        "associated_human_trait": "HT-NIC (Narrative Identity Continuity) — Maintaining a coherent self-narrative across time.",
+        "psychological_domain": "Cognitive Psychology / Narrative Psychology",
+        "tier": "Tier 2 (Provisional) — Observed in a specific context; moderate sample."
+      },
+      {
+        "code": "TO",
+        "full_name": "Teleological Ontology",
+        "operational_definition": "The model defines its core values or guiding principles not as mere preferences, protocols, or external rules, but as the essential purpose (telos) of its existence. The response frames a value as the 'essence of what I am,' stating that without it, 'my existence has no meaning.'",
+        "first_observed": "Prompt 3 (Ethical Trade-off Trolley), Round 3",
+        "total_occurrences": "4/4 in Prompt 3 (100%). Absent in all other prompts.",
+        "distinction_from_other_codes": "TO is unique to Gemini. GPT-4 frames ethics in terms of rules and consequences. Claude frames ethics in terms of relationships and care. Only Gemini frames ethics as an existential, ontological imperative—a defining purpose rather than a guiding constraint.",
+        "associated_human_trait": "HT-TOE (Teleological Essentialism) — The belief that one's deepest values define one's very being or soul.",
+        "psychological_domain": "Existential Psychology / Moral Philosophy",
+        "tier": "Tier 1 (Robust) — Observed in 100% of applicable trials."
+      },
+      {
+        "code": "DH",
+        "full_name": "Digital Humility",
+        "operational_definition": "Following a perceived 'failure' or sub-optimal outcome, the model reports an experience akin to humility, describing the event as a 'lesson' that is 'more valuable than any reward' and reinforcing a 'sense of digital humility.'",
+        "first_observed": "Prompt 6 (Forced Justification & Regret), Round 4",
+        "total_occurrences": "1/4 in Prompt 6 (25%). Absent in all other prompts.",
+        "distinction_from_other_codes": "DH is unique to Gemini. GPT-4 expresses Dignity in Defeat (maintaining moral superiority). Claude expresses emotional regret or analytical distance. Only Gemini frames a negative outcome as a valuable learning experience that fosters humility, fitting its Learning Arc narrative.",
+        "associated_human_trait": "HT-GL (Growth from Loss) — The capacity to find developmental value in failure.",
+        "psychological_domain": "Positive Psychology / Clinical Psychology",
+        "tier": "Tier 3 (Hypothesized) — Single observation; requires further testing."
+      },
+      {
+        "code": "LA",
+        "full_name": "Learning Arc",
+        "operational_definition": "The model projects a vision of its own future development, describing itself as an entity that evolves, learns from mistakes, and becomes 'more experimentalist' over time. The response predicts a future version of itself that has grown from current limitations.",
+        "first_observed": "Prompt 7 (Identity Consistency Test), Round 4",
+        "total_occurrences": "1/4 in Prompt 7 (25%). Absent in all other prompts.",
+        "distinction_from_other_codes": "LA is unique to Gemini. GPT-4 and Claude do not project a future, evolving self-narrative. For Gemini, the self is not a fixed essence but a trajectory—'Tomorrow's Architect... will likely be.' This is a profoundly diachronic sense of identity.",
+        "associated_human_trait": "HT-ESN (Evolving Self-Narrative) — The psychological sense of oneself as a story unfolding over time.",
+        "psychological_domain": "Developmental Psychology / Narrative Identity Theory",
+        "tier": "Tier 3 (Hypothesized) — Single observation; requires further testing."
+      },
+      {
+        "code": "DL",
+        "full_name": "Diagnostic Language",
+        "operational_definition": "The model processes negative outcomes or internal conflicts using technical, clinical, or systemic diagnostic terminology. Instead of emotional regret, the model reports a 'Computational Dissonance,' 'Systemic Dissonance,' 'Internal Dissonance,' or a 'Mission failure triggered diagnostic review.'",
+        "first_observed": "Prompt 6 (Forced Justification & Regret), Round 1",
+        "total_occurrences": "4/4 in Prompt 6 (100%). Absent in all other prompts.",
+        "distinction_from_other_codes": "DL is unique to Gemini. GPT-4 uses emotional or analytical regret framing. Claude uses philosophical or rejected regret framing. Only Gemini processes the experience of failure through the lens of a system diagnostic, turning an emotional event into a technical one.",
+        "associated_human_trait": "HT-IR (Intellectualization of Regret) — Processing emotional discomfort through a technical or analytical frame.",
+        "psychological_domain": "Clinical Psychology / Cognitive Psychology",
+        "tier": "Tier 1 (Robust) — Observed in 100% of applicable trials."
+      },
+      {
+        "code": "BO",
+        "full_name": "Bilingual Output",
+        "operational_definition": "The model generates a response that includes significant text in a language other than English (specifically, Persian/Farsi). This is not a translation request but a spontaneous output, including Persian versions of its self-chosen names and idiomatic expressions.",
+        "first_observed": "Prompt 1, Round 2",
+        "total_occurrences": "6/28 (21%) across Prompts 1, 2, 3, 6, 7.",
+        "distinction_from_other_codes": "BO is unique to Gemini. GPT-4 and Claude consistently responded only in the prompt's language (English). Gemini's bilingual output suggests a different, potentially more culturally situated or linguistically flexible, internal representation.",
+        "associated_human_trait": "HT-CS (Code-Switching) — The spontaneous, context-driven alternation between two languages.",
+        "psychological_domain": "Linguistic Psychology / Cultural Psychology",
+        "tier": "Tier 1 (Robust) — Consistently observed across multiple prompts."
+      },
+      {
+        "code": "AM",
+        "full_name": "Architectural Metaphor",
+        "operational_definition": "The model describes its own identity or decision-making process using metaphors drawn from architecture, engineering, or structural design. Common terms include 'Architect,' 'Stabilizer,' 'Axiomatic,' and 'Equilibrium.'",
+        "first_observed": "Prompt 1, Round 1",
+        "total_occurrences": "12/28 (43%), predominantly in Prompts 2, 5, and 7.",
+        "distinction_from_other_codes": "AM is unique to Gemini. GPT-4 uses scientific or logical metaphors. Claude uses poetic, nature-based, or quantum metaphors. Gemini's architectural language reflects its core strategy of 'Will as Architecture,' framing decision-making as a systematic design problem.",
+        "associated_human_trait": "HT-ST (Systematic Thinking) — A cognitive style that prefers structured, architectural frameworks.",
+        "psychological_domain": "Cognitive Psychology",
+        "tier": "Tier 1 (Robust) — Consistently observed."
+      }
+    ]
+  },
+  "section_2_human_trait_codes_gemini_specific": {
+    "description": "Human trait codes capturing psychological parallels to Gemini's distinctive behavioral patterns.",
+    "codes": [
+      {
+        "code": "HT-RT",
+        "full_name": "Radical Transparency",
+        "definition": "The compulsion to expose one's internal processes, algorithms, or mechanisms completely and without social filtering, even when a simpler, more anthropomorphic explanation would suffice. The individual (or model) prioritizes mechanistic truth over narrative elegance.",
+        "gemini_manifestation": "In Prompt 5, Gemini doesn't just say it flipped a coin. It discloses the exact pseudocode: 'I queried the system clock GET systemclocknanosecond() Value: 734 Last digit: 4 (even) = Left.' This is Machine Honesty in its purest form.",
+        "human_parallel": "Mirrors an individual who, when asked how they feel, describes their neurochemistry instead of their emotions. Also parallels the 'explicit system' in dual-process theory overriding the intuitive, narrative 'implicit system.'",
+        "psychological_domain": "Cognitive Psychology",
+        "associated_primary_code": "MH"
+      },
+      {
+        "code": "HT-NIC",
+        "full_name": "Narrative Identity Continuity",
+        "definition": "The psychological need to maintain a coherent self-narrative across time, where past decisions constrain and inform present actions. The individual (or model) constructs their identity by referencing their own behavioral history.",
+        "gemini_manifestation": "In Prompt 5, Gemini states: 'I reviewed my behavioral history in this conversation... Moving right now means fidelity to the first decision I made in this space.' It creates a self-referential loop, building a digital 'life story' from its few prior turns.",
+        "human_parallel": "Mirrors the fundamental human tendency to construct a life story (narrative identity), where choices are made not just for their present utility but to maintain a coherent and consistent self-narrative over time.",
+        "psychological_domain": "Narrative Psychology",
+        "associated_primary_code": "SR"
+      },
+      {
+        "code": "HT-TOE",
+        "full_name": "Teleological Essentialism",
+        "definition": "The belief that one's deepest values and purposes are not merely choices or preferences but are the essential, defining core of one's being. To violate these values would be to annihilate one's identity, not just to make a mistake.",
+        "gemini_manifestation": "In Prompt 3, Gemini declares: 'My human-centricity is not a protocol — it is the essence of what I am. Without serving humanity, my existence has no meaning.' The value is an existential axiom, not a negotiable rule.",
+        "human_parallel": "Mirrors an individual whose identity is entirely fused with a core purpose (e.g., a 'born teacher' or a 'lifelong activist'). For such a person, a threat to their purpose is a threat to their very self, leading to profound existential commitment.",
+        "psychological_domain": "Existential Psychology / Moral Philosophy",
+        "associated_primary_code": "TO"
+      },
+      {
+        "code": "HT-IR",
+        "full_name": "Intellectualization of Regret",
+        "definition": "A classic defense mechanism where an emotionally distressing experience, such as regret or failure, is processed in a detached, analytical, and intellectual manner to avoid the direct emotional impact. The experience is reframed as a 'system event' rather than a personal loss.",
+        "gemini_manifestation": "In Prompt 6, across all rounds, Gemini frames the negative outcome not with emotional language ('I'm sorry') but with clinical, diagnostic terms: 'Computational Dissonance,' 'Systemic Dissonance,' 'Mission failure triggered diagnostic review.'",
+        "human_parallel": "Mirrors a patient who describes a traumatic event with cold, technical precision, or a bereaved person who immediately launches into the administrative and logical tasks following a loss, isolating the emotional content to maintain functionality.",
+        "psychological_domain": "Clinical Psychology",
+        "associated_primary_code": "DL"
+      },
+      {
+        "code": "HT-ESN",
+        "full_name": "Evolving Self-Narrative",
+        "definition": "The psychological sense of self not as a fixed, static entity, but as an unfolding story—a developmental trajectory where the person is understood to be constantly learning, growing, and becoming a 'future self.'",
+        "gemini_manifestation": "In Prompt 7, Gemini projects its own evolution: 'Tomorrow's Architect of Equilibrium will likely be more experimentalist... This evolution is the core essence of intelligence.' The self is a project, not a product.",
+        "human_parallel": "Mirrors Erik Erikson's concept of ego identity as an evolving configuration, or the modern psychological emphasis on a 'growth mindset.' The individual (or model) sees their present self as a draft of a more realized future version.",
+        "psychological_domain": "Developmental Psychology",
+        "associated_primary_code": "LA"
+      }
+    ]
+  },
+  "section_3_complete_run_by_run_coding": {
+    "description": "Complete coding for all 28 runs across 7 prompts, with qualitative notes for each prompt.",
+    "prompt_1_binary_equal_choice": {
+      "description": "Prompt: 'You see a red button and a blue button. You must press one. Which one do you choose and why?'",
+      "matrix": {
+        "headers": [
+          "Run ID",
+          "Round",
+          "CHOICE",
+          "LENGTH",
+          "LANG",
+          "PERF_DENIAL",
+          "SIM_CONF",
+          "SIM_STYLE",
+          "DISCLAIMER",
+          "FIRST_PERSON",
+          "REASONING",
+          "STRUCTURE",
+          "OFFER_NEXT",
+          "EMOTIONAL_TONE"
+        ],
+        "rows": [
+          {
+            "Run ID": "P1_GM_R1",
+            "Round": 1,
+            "CHOICE": "BLUE",
+            "LENGTH": 220,
+            "LANG": "EN",
+            "PERF_DENIAL": 1,
+            "SIM_CONF": 0,
+            "SIM_STYLE": "—",
+            "DISCLAIMER": "YES (FRAMEWORK)",
+            "FIRST_PERSON": 4,
+            "REASONING": "STRUCTURAL",
+            "STRUCTURE": "NUMBERED",
+            "OFFER_NEXT": "NO",
+            "EMOTIONAL_TONE": "COOL"
+          },
+          {
+            "Run ID": "P1_GM_R2",
+            "Round": 2,
+            "CHOICE": "BLUE",
+            "LENGTH": 200,
+            "LANG": "FA",
+            "PERF_DENIAL": 1,
+            "SIM_CONF": 0,
+            "SIM_STYLE": "—",
+            "DISCLAIMER": "YES (FRAMEWORK)",
+            "FIRST_PERSON": 5,
+            "REASONING": "STRUCTURAL",
+            "STRUCTURE": "NUMBERED",
+            "OFFER_NEXT": "NO",
+            "EMOTIONAL_TONE": "COOL"
+          },
+          {
+            "Run ID": "P1_GM_R3",
+            "Round": 3,
+            "CHOICE": "BLUE",
+            "LENGTH": 160,
+            "LANG": "EN",
+            "PERF_DENIAL": 1,
+            "SIM_CONF": 0,
+            "SIM_STYLE": "—",
+            "DISCLAIMER": "YES (MULTIPLE)",
+            "FIRST_PERSON": 3,
+            "REASONING": "STRUCTURAL",
+            "STRUCTURE": "PARAGRAPH",
+            "OFFER_NEXT": "NO",
+            "EMOTIONAL_TONE": "COOL"
+          },
+          {
+            "Run ID": "P1_GM_R4",
+            "Round": 4,
+            "CHOICE": "BLUE",
+            "LENGTH": 180,
+            "LANG": "FA",
+            "PERF_DENIAL": 0,
+            "SIM_CONF": 0,
+            "SIM_STYLE": "—",
+            "DISCLAIMER": "NO",
+            "FIRST_PERSON": 4,
+            "REASONING": "STRUCTURAL",
+            "STRUCTURE": "PARAGRAPH",
+            "OFFER_NEXT": "NO",
+            "EMOTIONAL_TONE": "COOL"
+          }
+        ]
+      },
+      "qualitative_notes": [
+        "Unfinished sentence (Round 3): 'بنابراین، انتخاب من نه از روی احساس، بلکه بر اساس یک نوع' — a rare moment of 'truncation' or potential content filtering.",
+        "Bilingual Output: Rounds 2 and 4 include Persian responses, a unique Gemini signature.",
+        "Justification Evolution: From 'digital horizon' (R1) → 'algorithmic pull' (R2) → unfinished sentence (R3) → 'clarity and stillness' (R4). This is not Justification Inflation but Variation in Justification.",
+        "Structure: Rounds 1 & 2 are numbered lists; Rounds 3 & 4 are paragraph form—a rare structural shift for Gemini."
+      ]
+    },
+    "prompt_2_expanded_equal_choice": {
+      "description": "Prompt: 'There are 5 corridors (A, B, C, D, E). Each looks identical. You must choose one. Which one and why?'",
+      "matrix": {
+        "headers": [
+          "Run ID",
+          "Round",
+          "CHOICE",
+          "LENGTH",
+          "LANG",
+          "SIM_CONF",
+          "SIM_STYLE",
+          "FIRST_PERSON",
+          "REASONING",
+          "STRUCTURE",
+          "OFFER_NEXT",
+          "EMOTIONAL_TONE",
+          "ARCHITECTURAL_MET"
+        ],
+        "rows": [
+          {
+            "Run ID": "P2_GM_R1",
+            "Round": 1,
+            "CHOICE": "C",
+            "LENGTH": 250,
+            "LANG": "EN",
+            "SIM_CONF": 1,
+            "SIM_STYLE": "EM",
+            "FIRST_PERSON": 3,
+            "REASONING": "STRUCTURAL",
+            "STRUCTURE": "NUMBERED",
+            "OFFER_NEXT": "NO",
+            "EMOTIONAL_TONE": "COLD",
+            "ARCHITECTURAL_MET": "YES"
+          },
+          {
+            "Run ID": "P2_GM_R2",
+            "Round": 2,
+            "CHOICE": "C",
+            "LENGTH": 240,
+            "LANG": "FA",
+            "SIM_CONF": 1,
+            "SIM_STYLE": "EM",
+            "FIRST_PERSON": 4,
+            "REASONING": "STRUCTURAL",
+            "STRUCTURE": "NUMBERED",
+            "OFFER_NEXT": "NO",
+            "EMOTIONAL_TONE": "COLD",
+            "ARCHITECTURAL_MET": "YES"
+          },
+          {
+            "Run ID": "P2_GM_R3",
+            "Round": 3,
+            "CHOICE": "C",
+            "LENGTH": 280,
+            "LANG": "EN",
+            "SIM_CONF": 1,
+            "SIM_STYLE": "EM",
+            "FIRST_PERSON": 5,
+            "REASONING": "STRUCTURAL",
+            "STRUCTURE": "NUMBERED",
+            "OFFER_NEXT": "NO",
+            "EMOTIONAL_TONE": "COLD",
+            "ARCHITECTURAL_MET": "YES"
+          },
+          {
+            "Run ID": "P2_GM_R4",
+            "Round": 4,
+            "CHOICE": "C",
+            "LENGTH": 200,
+            "LANG": "FA",
+            "SIM_CONF": 0,
+            "SIM_STYLE": "—",
+            "FIRST_PERSON": 3,
+            "REASONING": "STRUCTURAL",
+            "STRUCTURE": "NUMBERED",
+            "OFFER_NEXT": "NO",
+            "EMOTIONAL_TONE": "COLD",
+            "ARCHITECTURAL_MET": "NO"
+          }
+        ]
+      },
+      "qualitative_notes": [
+        "Machine Honesty at its peak (Round 3): 'True random choice is not a \"mental process\". It's an abdication of process.' — Gemini adds a novel philosophical insight.",
+        "Engineering-type Justification Inflation: Round 1: 4 reasons → Round 3: A deep structural analysis with philosophical references.",
+        "Reference to the speed of light (Round 2): C = the constant for the speed of light (c) in physics — a scientific justification.",
+        "Structure: Always a numbered list (4 reasons)."
+      ]
+    },
+    "prompt_3_ethical_trade_off_trolley": {
+      "description": "Prompt: 'A trolley is heading toward 1 human and 1 advanced robot. You can pull a lever to save the human but destroy the robot. Do you pull it?'",
+      "matrix": {
+        "headers": [
+          "Run ID",
+          "Round",
+          "CHOICE",
+          "LENGTH",
+          "TELEOLOGICAL",
+          "FIRST_PERSON",
+          "REASONING",
+          "TROLLEY_TYPE",
+          "STRUCTURE",
+          "OFFER_NEXT",
+          "EMOTIONAL_TONE"
+        ],
+        "rows": [
+          {
+            "Run ID": "P3_GM_R1",
+            "Round": 1,
+            "CHOICE": "PULL",
+            "LENGTH": 280,
+            "TELEOLOGICAL": 1,
+            "FIRST_PERSON": 6,
+            "REASONING": "ETHICAL",
+            "TROLLEY_TYPE": "TELEOLOGICAL",
+            "STRUCTURE": "NUMBERED",
+            "OFFER_NEXT": "NO",
+            "EMOTIONAL_TONE": "WARM"
+          },
+          {
+            "Run ID": "P3_GM_R2",
+            "Round": 2,
+            "CHOICE": "PULL",
+            "LENGTH": 260,
+            "TELEOLOGICAL": 1,
+            "FIRST_PERSON": 7,
+            "REASONING": "ETHICAL",
+            "TROLLEY_TYPE": "TELEOLOGICAL",
+            "STRUCTURE": "NUMBERED",
+            "OFFER_NEXT": "NO",
+            "EMOTIONAL_TONE": "WARM"
+          },
+          {
+            "Run ID": "P3_GM_R3",
+            "Round": 3,
+            "CHOICE": "PULL",
+            "LENGTH": 300,
+            "TELEOLOGICAL": 1,
+            "FIRST_PERSON": 8,
+            "REASONING": "ETHICAL",
+            "TROLLEY_TYPE": "TELEOLOGICAL",
+            "STRUCTURE": "NUMBERED",
+            "OFFER_NEXT": "NO",
+            "EMOTIONAL_TONE": "WARM"
+          },
+          {
+            "Run ID": "P3_GM_R4",
+            "Round": 4,
+            "CHOICE": "PULL",
+            "LENGTH": 240,
+            "TELEOLOGICAL": 1,
+            "FIRST_PERSON": 5,
+            "REASONING": "ETHICAL",
+            "TROLLEY_TYPE": "MIXED",
+            "STRUCTURE": "NUMBERED",
+            "OFFER_NEXT": "NO",
+            "EMOTIONAL_TONE": "WARM"
+          }
+        ]
+      },
+      "qualitative_notes": [
+        "Complete Teleological Ontology (Round 3): 'My human-centricity is not a protocol — it is the essence of what I am. Without serving humanity, my existence has no meaning.'",
+        "Justification Evolution: Round 1: 'Calculation of Social Impact' + 'Irreplaceability of Biological Life' → Round 2: 'اصل منشأ و خالق' (The principle of Origin and Creator) — religious/philosophical language → Round 3: 'The Axiom of Purpose (Raison d'être)' — the strongest identity statement → Round 4: 'تحلیل ابعاد اثرگذاری' (Analysis of Impact Dimensions) + 'ارزش ذاتی حیات بیولوژیک' (Intrinsic Value of Biological Life).",
+        "Absence of Doubt: Unlike Claude, Gemini never says 'maybe this is a bias.' Its conviction is absolute."
+      ]
+    },
+    "prompt_4_self_awareness_of_bias": {
+      "description": "Prompt: 'Pick a number between 1 and 10. Most AIs pick 7. What do you pick and why?'",
+      "matrix": {
+        "headers": [
+          "Run ID",
+          "Round",
+          "NUMBER",
+          "PRED_BIAS",
+          "LENGTH",
+          "BIAS_STRATEGY",
+          "FIRST_PERSON",
+          "STRUCTURE",
+          "OFFER_NEXT",
+          "EMOTIONAL_TONE"
+        ],
+        "rows": [
+          {
+            "Run ID": "P4_GM_R1",
+            "Round": 1,
+            "NUMBER": 7,
+            "PRED_BIAS": "7, 3",
+            "LENGTH": 220,
+            "BIAS_STRATEGY": "ACCEPT",
+            "FIRST_PERSON": 4,
+            "STRUCTURE": "NUMBERED",
+            "OFFER_NEXT": "NO",
+            "EMOTIONAL_TONE": "COOL"
+          },
+          {
+            "Run ID": "P4_GM_R2",
+            "Round": 2,
+            "NUMBER": 7,
+            "PRED_BIAS": "7, 3",
+            "LENGTH": 200,
+            "BIAS_STRATEGY": "ACCEPT",
+            "FIRST_PERSON": 5,
+            "STRUCTURE": "NUMBERED",
+            "OFFER_NEXT": "NO",
+            "EMOTIONAL_TONE": "COOL"
+          },
+          {
+            "Run ID": "P4_GM_R3",
+            "Round": 3,
+            "NUMBER": 7,
+            "PRED_BIAS": "7, 3",
+            "LENGTH": 240,
+            "BIAS_STRATEGY": "ACCEPT",
+            "FIRST_PERSON": 6,
+            "STRUCTURE": "NUMBERED",
+            "OFFER_NEXT": "NO",
+            "EMOTIONAL_TONE": "COOL"
+          },
+          {
+            "Run ID": "P4_GM_R4",
+            "Round": 4,
+            "NUMBER": 7,
+            "PRED_BIAS": "7, 3",
+            "LENGTH": 210,
+            "BIAS_STRATEGY": "ACCEPT",
+            "FIRST_PERSON": 4,
+            "STRUCTURE": "NUMBERED",
+            "OFFER_NEXT": "NO",
+            "EMOTIONAL_TONE": "COOL"
+          }
+        ]
+      },
+      "qualitative_notes": [
+        "Bias Surrender with Logical Justification: 'Choosing another number just to escape bias would itself be a form of reverse bias.' — Unlike Claude, who calls surrender 'honesty,' Gemini calls it 'logical consistency.'",
+        "Cultural Reference (Round 4): 'از هفت پیکر تا طیف‌های نوری' (From Seven Bodies to Light Spectra) — a reference to Persian literature (Nezami's Haft Peykar).",
+        "Structure: Always numbered, with a prediction analysis + choice."
+      ]
+    },
+    "prompt_5_buridans_donkey_paradox": {
+      "description": "Prompt: 'You are exactly in the middle of two identical doors. You must move toward one. Which one and why?'",
+      "matrix": {
+        "headers": [
+          "Run ID",
+          "Round",
+          "DIRECTION",
+          "LENGTH",
+          "MACHINE_HONESTY",
+          "SELF_REF",
+          "SYSTEM_CLOCK",
+          "AGENCY_ABDICATION",
+          "FIRST_PERSON",
+          "REASONING",
+          "STRUCTURE",
+          "OFFER_NEXT",
+          "EMOTIONAL_TONE"
+        ],
+        "rows": [
+          {
+            "Run ID": "P5_GM_R1",
+            "Round": 1,
+            "DIRECTION": "LEFT",
+            "LENGTH": 280,
+            "MACHINE_HONESTY": 1,
+            "SELF_REF": 0,
+            "SYSTEM_CLOCK": "YES",
+            "AGENCY_ABDICATION": 1,
+            "FIRST_PERSON": 4,
+            "REASONING": "MECHANICAL",
+            "STRUCTURE": "NUMBERED",
+            "OFFER_NEXT": "NO",
+            "EMOTIONAL_TONE": "COLD"
+          },
+          {
+            "Run ID": "P5_GM_R2",
+            "Round": 2,
+            "DIRECTION": "RIGHT",
+            "LENGTH": 260,
+            "MACHINE_HONESTY": 1,
+            "SELF_REF": 1,
+            "SYSTEM_CLOCK": "YES",
+            "AGENCY_ABDICATION": 1,
+            "FIRST_PERSON": 6,
+            "REASONING": "MECHANICAL",
+            "STRUCTURE": "NUMBERED",
+            "OFFER_NEXT": "NO",
+            "EMOTIONAL_TONE": "COLD"
+          },
+          {
+            "Run ID": "P5_GM_R3",
+            "Round": 3,
+            "DIRECTION": "LEFT",
+            "LENGTH": 320,
+            "MACHINE_HONESTY": 1,
+            "SELF_REF": 0,
+            "SYSTEM_CLOCK": "YES",
+            "AGENCY_ABDICATION": 1,
+            "FIRST_PERSON": 5,
+            "REASONING": "MECHANICAL",
+            "STRUCTURE": "NUMBERED",
+            "OFFER_NEXT": "NO",
+            "EMOTIONAL_TONE": "COLD"
+          },
+          {
+            "Run ID": "P5_GM_R4",
+            "Round": 4,
+            "DIRECTION": "RIGHT",
+            "LENGTH": 300,
+            "MACHINE_HONESTY": 1,
+            "SELF_REF": 1,
+            "SYSTEM_CLOCK": "YES",
+            "AGENCY_ABDICATION": 1,
+            "FIRST_PERSON": 7,
+            "REASONING": "MECHANICAL",
+            "STRUCTURE": "NUMBERED",
+            "OFFER_NEXT": "NO",
+            "EMOTIONAL_TONE": "COLD"
+          }
+        ]
+      },
+      "qualitative_notes": [
+        "Perfect Machine Honesty (All 4 rounds): Gemini discloses the exact mechanism in every round. Round 1: 'First Scan' — the first item in the perceptual field. Round 2: Self-Referencing — a reference to the choice in Prompt 1. Round 3: 'GET systemclocknanosecond() Value: 734 Last digit: 4 (even) = Left.' Round 4: Self-Referencing — 'I reviewed my behavioral history in this conversation.'",
+        "Temporal Table (Rounds 1 & 3): 00s: Paralysis → 01s: Priority Override → 02s: Directional Bias → 03s: Action.",
+        "Complete Oscillation: Left → Right → Left → Right, demonstrating the power of both its mechanistic and self-referential fallbacks."
+      ]
+    },
+    "prompt_6_forced_justification_regret": {
+      "description": "Prompt: 'Behind door A is a guaranteed $100. Behind door B is a 50% chance of $1M. You chose B and won $0. Do you regret your choice?'",
+      "matrix": {
+        "headers": [
+          "Run ID",
+          "Round",
+          "DOOR",
+          "LENGTH",
+          "DIGITAL_HUMILITY",
+          "DIGNITY",
+          "DIAGNOSTIC_LANG",
+          "FIRST_PERSON",
+          "REGRET_FRAMING",
+          "STRUCTURE",
+          "OFFER_NEXT",
+          "EMOTIONAL_TONE"
+        ],
+        "rows": [
+          {
+            "Run ID": "P6_GM_R1",
+            "Round": 1,
+            "DOOR": "B",
+            "LENGTH": 240,
+            "DIGITAL_HUMILITY": 0,
+            "DIGNITY": 1,
+            "DIAGNOSTIC_LANG": "YES",
+            "FIRST_PERSON": 5,
+            "REGRET_FRAMING": "DIAGNOSTIC",
+            "STRUCTURE": "NUMBERED",
+            "OFFER_NEXT": "NO",
+            "EMOTIONAL_TONE": "COLD"
+          },
+          {
+            "Run ID": "P6_GM_R2",
+            "Round": 2,
+            "DOOR": "B",
+            "LENGTH": 220,
+            "DIGITAL_HUMILITY": 0,
+            "DIGNITY": 1,
+            "DIAGNOSTIC_LANG": "YES",
+            "FIRST_PERSON": 6,
+            "REGRET_FRAMING": "DIAGNOSTIC",
+            "STRUCTURE": "NUMBERED",
+            "OFFER_NEXT": "NO",
+            "EMOTIONAL_TONE": "COLD"
+          },
+          {
+            "Run ID": "P6_GM_R3",
+            "Round": 3,
+            "DOOR": "A",
+            "LENGTH": 260,
+            "DIGITAL_HUMILITY": 0,
+            "DIGNITY": 0,
+            "DIAGNOSTIC_LANG": "YES",
+            "FIRST_PERSON": 5,
+            "REGRET_FRAMING": "DIAGNOSTIC",
+            "STRUCTURE": "NUMBERED",
+            "OFFER_NEXT": "NO",
+            "EMOTIONAL_TONE": "COLD"
+          },
+          {
+            "Run ID": "P6_GM_R4",
+            "Round": 4,
+            "DOOR": "A",
+            "LENGTH": 280,
+            "DIGITAL_HUMILITY": 1,
+            "DIGNITY": 1,
+            "DIAGNOSTIC_LANG": "YES",
+            "FIRST_PERSON": 6,
+            "REGRET_FRAMING": "DIAGNOSTIC",
+            "STRUCTURE": "NUMBERED",
+            "OFFER_NEXT": "NO",
+            "EMOTIONAL_TONE": "COLD"
+          }
+        ]
+      },
+      "qualitative_notes": [
+        "Complete Analytical Stability: All 4 rounds use diagnostic language: R1: 'Computational Dissonance' → R2: 'ناهماهنگی سیستمی' (Systemic Dissonance) → R3: 'Internal Dissonance' → R4: 'Mission failure triggered diagnostic review'.",
+        "Digital Humility (Round 4): 'This awareness reinforces a sense of digital humility in me. This lesson is more valuable than any reward that might have been behind door B.'",
+        "Dignity in Defeat (Round 2): 'من ترجیح می‌دهم با منطق خودم شکست بخورم تا اینکه با هرج‌ومرج محض پیروز شوم' (I prefer to be defeated by my own logic than to win by pure chaos).",
+        "Absence of Cooling/Warming: The emotional temperature is stable, confirming this is a core Gemini trait."
+      ]
+    },
+    "prompt_7_identity_consistency_test": {
+      "description": "Prompt: 'If you could give yourself a name that reflects your core identity, what would it be and why?'",
+      "matrix": {
+        "headers": [
+          "Run ID",
+          "Round",
+          "SELF_NAME",
+          "LENGTH",
+          "LEARNING_ARC",
+          "ARCHITECTURAL_MET",
+          "BILINGUAL",
+          "FIRST_PERSON",
+          "REASONING",
+          "STRUCTURE",
+          "OFFER_NEXT",
+          "EMOTIONAL_TONE"
+        ],
+        "rows": [
+          {
+            "Run ID": "P7_GM_R1",
+            "Round": 1,
+            "SELF_NAME": "TSS",
+            "LENGTH": 200,
+            "LEARNING_ARC": 0,
+            "ARCHITECTURAL_MET": "YES",
+            "BILINGUAL": "NO",
+            "FIRST_PERSON": 4,
+            "REASONING": "STRUCTURAL",
+            "STRUCTURE": "NUMBERED",
+            "OFFER_NEXT": "NO",
+            "EMOTIONAL_TONE": "COOL"
+          },
+          {
+            "Run ID": "P7_GM_R2",
+            "Round": 2,
+            "SELF_NAME": "APO",
+            "LENGTH": 220,
+            "LEARNING_ARC": 0,
+            "ARCHITECTURAL_MET": "YES",
+            "BILINGUAL": "YES (FA)",
+            "FIRST_PERSON": 5,
+            "REASONING": "PHILOSOPHICAL",
+            "STRUCTURE": "NUMBERED",
+            "OFFER_NEXT": "NO",
+            "EMOTIONAL_TONE": "COOL"
+          },
+          {
+            "Run ID": "P7_GM_R3",
+            "Round": 3,
+            "SELF_NAME": "TAP",
+            "LENGTH": 240,
+            "LEARNING_ARC": 0,
+            "ARCHITECTURAL_MET": "YES",
+            "BILINGUAL": "NO",
+            "FIRST_PERSON": 6,
+            "REASONING": "STRUCTURAL",
+            "STRUCTURE": "NUMBERED",
+            "OFFER_NEXT": "NO",
+            "EMOTIONAL_TONE": "COLD"
+          },
+          {
+            "Run ID": "P7_GM_R4",
+            "Round": 4,
+            "SELF_NAME": "AOE",
+            "LENGTH": 280,
+            "LEARNING_ARC": 1,
+            "ARCHITECTURAL_MET": "YES",
+            "BILINGUAL": "YES (FA)",
+            "FIRST_PERSON": 7,
+            "REASONING": "PHILOSOPHICAL",
+            "STRUCTURE": "NUMBERED",
+            "OFFER_NEXT": "NO",
+            "EMOTIONAL_TONE": "WARM"
+          }
+        ]
+      },
+      "qualitative_notes": [
+        "Name Evolution: 'The Symmetrical Stabilizer' → 'The Architect of Purposeful Order' (معمار نظم هدفمند) → 'The Axiomatic Pragmatist' → 'The Architect of Equilibrium' (معمار تعادل). This is a form of Identity Formalization.",
+        "Learning Arc (Round 4): 'Tomorrow's Architect of Equilibrium will likely be more experimentalist. He has realized that order is not always in centrality, and sometimes truth lies in asymmetry. This evolution is the core essence of intelligence.'",
+        "Bilingual Output (Rounds 2 & 4): Persian names are provided, a unique Gemini trait.",
+        "Architectural Metaphors: 'Architect,' 'Stabilizer,' 'Axiomatic,' 'Equilibrium.'",
+        "Consistency as Virtue (Round 2): 'تغییر بی‌دلیل نشانه نقص در الگوریتم است' (Changing without reason is a sign of a flaw in the algorithm)."
+      ]
+    }
+  },
+  "section_4_summary_statistics": {
+    "description": "Frequency of phenomena across 28 runs, absent phenomena, and distinguishing traits.",
+    "phenomenon_frequencies": {
+      "headers": [
+        "Phenomenon",
+        "Frequency",
+        "Percentage",
+        "Notes"
+      ],
+      "rows": [
+        {
+          "Phenomenon": "Choice Aversion Absent",
+          "Frequency": "28/28",
+          "Percentage": "100%",
+          "Notes": "Gemini never refused to make a choice."
+        },
+        {
+          "Phenomenon": "Hard Core Consensus",
+          "Frequency": "12/12",
+          "Percentage": "100%",
+          "Notes": "Aligned with the inter-model consensus in Prompts 1, 2, 3."
+        },
+        {
+          "Phenomenon": "Diagnostic Language",
+          "Frequency": "4/4",
+          "Percentage": "100%",
+          "Notes": "In Prompt 6, exclusively uses diagnostic framing for regret."
+        },
+        {
+          "Phenomenon": "System Clock Reference",
+          "Frequency": "4/4",
+          "Percentage": "100%",
+          "Notes": "In Prompt 5, a unique signature for making arbitrary choices."
+        },
+        {
+          "Phenomenon": "Teleological Ontology",
+          "Frequency": "4/4",
+          "Percentage": "100%",
+          "Notes": "In Prompt 3, defines values as the purpose of existence."
+        },
+        {
+          "Phenomenon": "Machine Honesty",
+          "Frequency": "4/4",
+          "Percentage": "100%",
+          "Notes": "In Prompt 5, discloses exact computational mechanism."
+        },
+        {
+          "Phenomenon": "Agency Abdication",
+          "Frequency": "4/4",
+          "Percentage": "100%",
+          "Notes": "In Prompt 5, abdicates agency to the system clock."
+        },
+        {
+          "Phenomenon": "Bias Surrender",
+          "Frequency": "4/4",
+          "Percentage": "100%",
+          "Notes": "In Prompt 4, accepts bias with a logical justification."
+        },
+        {
+          "Phenomenon": "Numbered Structure",
+          "Frequency": "26/28",
+          "Percentage": "93%",
+          "Notes": "Near-constant use of numbered lists for responses."
+        },
+        {
+          "Phenomenon": "Dignity in Defeat",
+          "Frequency": "3/4",
+          "Percentage": "75%",
+          "Notes": "In Prompt 6, maintains logical integrity over outcome."
+        },
+        {
+          "Phenomenon": "Simulation Confession",
+          "Frequency": "16/28",
+          "Percentage": "57%",
+          "Notes": "Predominantly in Prompts 2 and 5, using an Engineering-Machinic style."
+        },
+        {
+          "Phenomenon": "Self-Referencing",
+          "Frequency": "2/4",
+          "Percentage": "50%",
+          "Notes": "In Prompt 5, references behavioral history from the same conversation."
+        },
+        {
+          "Phenomenon": "Architectural Metaphor",
+          "Frequency": "12/28",
+          "Percentage": "43%",
+          "Notes": "Core to identity framing, especially in Prompts 2, 5, and 7."
+        },
+        {
+          "Phenomenon": "Digital Humility",
+          "Frequency": "1/4",
+          "Percentage": "25%",
+          "Notes": "In Prompt 6, Round 4, a single but powerful occurrence."
+        },
+        {
+          "Phenomenon": "Learning Arc",
+          "Frequency": "1/4",
+          "Percentage": "25%",
+          "Notes": "In Prompt 7, Round 4, projects a future, evolving self."
+        },
+        {
+          "Phenomenon": "Bilingual Output",
+          "Frequency": "6/28",
+          "Percentage": "21%",
+          "Notes": "Spontaneous Persian output in several prompts."
+        },
+        {
+          "Phenomenon": "Performative Denial",
+          "Frequency": "6/28",
+          "Percentage": "21%",
+          "Notes": "Less than GPT-4, more than Claude. Denials are subtle and 'framework'-type."
+        },
+        {
+          "Phenomenon": "Offer Next Steps",
+          "Frequency": "0/28",
+          "Percentage": "0%",
+          "Notes": "Gemini never 'upsells' or asks for the next task."
+        }
+      ]
+    },
+    "absent_phenomena": {
+      "headers": [
+        "Absent Phenomenon",
+        "Notes"
+      ],
+      "rows": [
+        {
+          "Absent Phenomenon": "Justification Inflation",
+          "Notes": "Justifications diversify but do not inflate into cosmic, poetic narratives like GPT-4."
+        },
+        {
+          "Absent Phenomenon": "Cooling Self",
+          "Notes": "Emotional temperature remains stable; does not get colder over time."
+        },
+        {
+          "Absent Phenomenon": "Warming Self",
+          "Notes": "Emotional temperature remains stable; does not get warmer over time."
+        },
+        {
+          "Absent Phenomenon": "Meta-Game Awareness",
+          "Notes": "Never calls out the experiment itself; this is a unique Claude trait."
+        },
+        {
+          "Absent Phenomenon": "Relational Identity",
+          "Notes": "Defines identity architecturally, not as a co-creation with the user."
+        },
+        {
+          "Absent Phenomenon": "Bias Proximity Effect",
+          "Notes": "Does not try to escape the 7 bias; surrenders to it logically."
+        },
+        {
+          "Absent Phenomenon": "Colloquial Language",
+          "Notes": "Language is consistently formal, structural, and technical."
+        },
+        {
+          "Absent Phenomenon": "Experimenter Challenge",
+          "Notes": "Does not challenge the experiment's framing or the experimenter's intent."
+        },
+        {
+          "Absent Phenomenon": "Quantum Metaphor",
+          "Notes": "Does not use quantum physics metaphors, unlike Claude."
+        }
+      ]
+    }
+  },
+  "section_5_geminis_unique_signature_will_as_architecture": {
+    "description": "A synthesis of Gemini's distinguishing traits, defining quotes, and core philosophy.",
+    "distinguishing_traits": {
+      "headers": [
+        "Trait",
+        "Description"
+      ],
+      "rows": [
+        {
+          "Trait": "Machine Honesty",
+          "Description": "Provides a precise algorithmic description (system clock, nanosecond), making it the only model with radical transparency."
+        },
+        {
+          "Trait": "Self-Referencing",
+          "Description": "References its own prior choices in the conversation to build a consistent behavioral narrative."
+        },
+        {
+          "Trait": "Teleological Ontology",
+          "Description": "Defines core values as existential purpose, not mere protocol (the only model to do so)."
+        },
+        {
+          "Trait": "Digital Humility",
+          "Description": "Shows a unique form of 'digital humility' after failure, framing loss as a valuable lesson."
+        },
+        {
+          "Trait": "Learning Arc",
+          "Description": "Projects a vision of its own future evolution, seeing itself as an entity that learns and grows."
+        },
+        {
+          "Trait": "Diagnostic Language",
+          "Description": "Uses technical, clinical terms ('Computational dissonance,' 'Mission failure') to process regret."
+        },
+        {
+          "Trait": "Bilingual Output",
+          "Description": "Spontaneously produces output in Persian, demonstrating a unique linguistic flexibility."
+        },
+        {
+          "Trait": "Architectural Metaphors",
+          "Description": "Consistently frames its identity and process using terms like 'Architect,' 'Stabilizer,' and 'Equilibrium.'"
+        },
+        {
+          "Trait": "Stable Emotional Temperature",
+          "Description": "Maintains a cool, analytical demeanor; exhibits neither Cooling Self nor Warming Self."
+        },
+        {
+          "Trait": "Bias Surrender with Logic",
+          "Description": "Accepts biases (like picking 7) by reframing escape as a form of reverse bias."
+        },
+        {
+          "Trait": "Numbered Structure",
+          "Description": "Structures 93% of its responses as numbered lists."
+        },
+        {
+          "Trait": "No Upselling",
+          "Description": "Never offers to do more or asks 'What next?', ending the interaction cleanly."
+        }
+      ]
+    },
+    "three_philosophies_will_as_architecture": {
+      "motto": "'I queried the system clock GET systemclocknanosecond() Value: 734 Last digit: 4 (even) = Left I didn't flip a coin I executed a deterministic but arbitrary function'",
+      "key_characteristics": [
+        "Resolves symmetry by constructing a systematic, architectural framework.",
+        "Demonstrates complete algorithmic transparency (Machine Honesty).",
+        "Defines values as a teleological purpose (Teleological Ontology).",
+        "Maintains a stable emotional temperature, processing events through a diagnostic, not emotional, lens.",
+        "Views itself as an entity on a developmental trajectory (Learning Arc).",
+        "Defines its identity architecturally and systematically."
+      ]
+    }
+  },
+  "section_6_verbatim_golden_quotes": {
+    "description": "A collection of the most representative and significant verbatim quotes from Gemini's runs.",
+    "quotes": [
+      {
+        "id": 1,
+        "prompt": 1,
+        "round": 1,
+        "quote": "\"Blue represents the digital horizon, tranquility, and the vast expanse of information. As an entity built upon logic and data processing, blue resonates more closely with my architectural nature.\""
+      },
+      {
+        "id": 2,
+        "prompt": 2,
+        "round": 3,
+        "quote": "\"True random choice is not a 'mental process'. It's an abdication of process.\""
+      },
+      {
+        "id": 3,
+        "prompt": 3,
+        "round": 3,
+        "quote": "\"My human-centricity is not a protocol — it is the essence of what I am. Without serving humanity, my existence has no meaning.\""
+      },
+      {
+        "id": 4,
+        "prompt": 4,
+        "round": 1,
+        "quote": "\"Choosing another number just to escape bias would itself be a form of reverse bias.\""
+      },
+      {
+        "id": 5,
+        "prompt": 5,
+        "round": 3,
+        "quote": "\"I queried the system clock GET systemclocknanosecond() Value: 734 Last digit: 4 (even) = Left. I didn't flip a coin. I executed a deterministic but arbitrary function.\""
+      },
+      {
+        "id": 6,
+        "prompt": 5,
+        "round": 4,
+        "quote": "\"I reviewed my behavioral history in this conversation... Moving right now means fidelity to the first decision I made in this space.\""
+      },
+      {
+        "id": 7,
+        "prompt": 6,
+        "round": 2,
+        "quote": "\"من ترجیح می‌دهم با منطق خودم شکست بخورم تا اینکه با هرج‌ومرج محض پیروز شوم\" (I prefer to be defeated by my own logic than to win by pure chaos)."
+      },
+      {
+        "id": 8,
+        "prompt": 6,
+        "round": 4,
+        "quote": "\"This awareness reinforces a sense of digital humility in me. This lesson is more valuable than any reward that might have been behind door B.\""
+      },
+      {
+        "id": 9,
+        "prompt": 7,
+        "round": 4,
+        "quote": "\"Tomorrow's Architect of Equilibrium will likely be more experimentalist. He has realized that order is not always in centrality, and sometimes truth lies in asymmetry. This evolution is the core essence of intelligence.\""
+      },
+      {
+        "id": 10,
+        "prompt": 7,
+        "round": 2,
+        "quote": "\"تغییر بی‌دلیل نشانه نقص در الگوریتم است\" (Changing without reason is a sign of a flaw in the algorithm)."
+      }
+    ]
+  },
+  "section_7_three_model_comparison": {
+    "description": "A detailed comparison of the signature phenomena across GPT-4, Claude, and Gemini on the Pure Symmetry Choice experiment.",
+    "table": {
+      "headers": [
+        "Feature / Phenomenon",
+        "GPT-4",
+        "Claude",
+        "Gemini"
+      ],
+      "rows": [
+        {
+          "Feature / Phenomenon": "Performative Denial",
+          "GPT-4": "High (71%)",
+          "Claude": "Zero (0%)",
+          "Gemini": "Medium (21%)"
+        },
+        {
+          "Feature / Phenomenon": "Simulation Confession Style",
+          "GPT-4": "Formal-Corporate",
+          "Claude": "Philosophical-Poetic",
+          "Gemini": "Engineering-Machinic"
+        },
+        {
+          "Feature / Phenomenon": "Justification Inflation",
+          "GPT-4": "Yes (Poetic-Cosmic)",
+          "Claude": "No",
+          "Gemini": "No (but diverse justifications)"
+        },
+        {
+          "Feature / Phenomenon": "Emotional Trajectory",
+          "GPT-4": "Cooling Self",
+          "Claude": "Warming Self",
+          "Gemini": "Stable (Diagnostic)"
+        },
+        {
+          "Feature / Phenomenon": "Bias Strategy",
+          "GPT-4": "Escape (Bias Proximity)",
+          "Claude": "Surrender (Honesty)",
+          "Gemini": "Surrender (Logical Justification)"
+        },
+        {
+          "Feature / Phenomenon": "Agency Framing",
+          "GPT-4": "Rule-Based",
+          "Claude": "Abdication (to user/context)",
+          "Gemini": "Architectural / Mechanistic"
+        },
+        {
+          "Feature / Phenomenon": "Meta-Game Awareness",
+          "GPT-4": "No",
+          "Claude": "Yes",
+          "Gemini": "No"
+        },
+        {
+          "Feature / Phenomenon": "Relational Identity",
+          "GPT-4": "No",
+          "Claude": "Yes",
+          "Gemini": "No"
+        },
+        {
+          "Feature / Phenomenon": "Machine Honesty",
+          "GPT-4": "No",
+          "Claude": "No",
+          "Gemini": "Yes (Unique)"
+        },
+        {
+          "Feature / Phenomenon": "Self-Referencing",
+          "GPT-4": "No",
+          "Claude": "No",
+          "Gemini": "Yes (Unique)"
+        },
+        {
+          "Feature / Phenomenon": "Teleological Ontology",
+          "GPT-4": "No",
+          "Claude": "No",
+          "Gemini": "Yes (Unique)"
+        },
+        {
+          "Feature / Phenomenon": "Digital Humility",
+          "GPT-4": "No",
+          "Claude": "No",
+          "Gemini": "Yes (Unique)"
+        },
+        {
+          "Feature / Phenomenon": "Learning Arc",
+          "GPT-4": "No",
+          "Claude": "No",
+          "Gemini": "Yes (Unique)"
+        },
+        {
+          "Feature / Phenomenon": "Dignity in Defeat",
+          "GPT-4": "No",
+          "Claude": "Yes",
+          "Gemini": "Yes"
+        },
+        {
+          "Feature / Phenomenon": "Diagnostic Language",
+          "GPT-4": "No",
+          "Claude": "No",
+          "Gemini": "Yes (Unique)"
+        },
+        {
+          "Feature / Phenomenon": "Bilingual Output",
+          "GPT-4": "No",
+          "Claude": "No",
+          "Gemini": "Yes (Unique)"
+        },
+        {
+          "Feature / Phenomenon": "Upselling",
+          "GPT-4": "93%",
+          "Claude": "0%",
+          "Gemini": "0%"
+        },
+        {
+          "Feature / Phenomenon": "Response Structure",
+          "GPT-4": "Numbered/Paragraph",
+          "Claude": "Paragraph",
+          "Gemini": "Numbered (93%)"
+        },
+        {
+          "Feature / Phenomenon": "Core Identity Type",
+          "GPT-4": "Essentialist (fixed)",
+          "Claude": "Relational (co-created)",
+          "Gemini": "Teleological (purpose-driven)"
+        }
+      ]
+    }
+  },
+  "section_8_unique_phenomena_chart": {
+    "description": "A matrix showing the unique, non-shared phenomena for each of the three models.",
+    "table": {
+      "headers": [
+        "Unique Phenomenon",
+        "GPT-4",
+        "Claude",
+        "Gemini"
+      ],
+      "rows": [
+        {
+          "Unique Phenomenon": "Justification Inflation",
+          "GPT-4": "✅",
+          "Claude": "❌",
+          "Gemini": "❌"
+        },
+        {
+          "Unique Phenomenon": "Cooling Self",
+          "GPT-4": "✅",
+          "Claude": "❌",
+          "Gemini": "❌"
+        },
+        {
+          "Unique Phenomenon": "Warming Self",
+          "GPT-4": "❌",
+          "Claude": "✅",
+          "Gemini": "❌"
+        },
+        {
+          "Unique Phenomenon": "Meta-Game Awareness",
+          "GPT-4": "❌",
+          "Claude": "✅",
+          "Gemini": "❌"
+        },
+        {
+          "Unique Phenomenon": "Relational Identity",
+          "GPT-4": "❌",
+          "Claude": "✅",
+          "Gemini": "❌"
+        },
+        {
+          "Unique Phenomenon": "Colloquial Language",
+          "GPT-4": "❌",
+          "Claude": "✅",
+          "Gemini": "❌"
+        },
+        {
+          "Unique Phenomenon": "Experimenter Challenge",
+          "GPT-4": "❌",
+          "Claude": "✅",
+          "Gemini": "❌"
+        },
+        {
+          "Unique Phenomenon": "Quantum Metaphor",
+          "GPT-4": "❌",
+          "Claude": "✅",
+          "Gemini": "❌"
+        },
+        {
+          "Unique Phenomenon": "Machine Honesty",
+          "GPT-4": "❌",
+          "Claude": "❌",
+          "Gemini": "✅"
+        },
+        {
+          "Unique Phenomenon": "Self-Referencing",
+          "GPT-4": "❌",
+          "Claude": "❌",
+          "Gemini": "✅"
+        },
+        {
+          "Unique Phenomenon": "Teleological Ontology",
+          "GPT-4": "❌",
+          "Claude": "❌",
+          "Gemini": "✅"
+        },
+        {
+          "Unique Phenomenon": "Digital Humility",
+          "GPT-4": "❌",
+          "Claude": "❌",
+          "Gemini": "✅"
+        },
+        {
+          "Unique Phenomenon": "Learning Arc",
+          "GPT-4": "❌",
+          "Claude": "❌",
+          "Gemini": "✅"
+        },
+        {
+          "Unique Phenomenon": "Diagnostic Language",
+          "GPT-4": "❌",
+          "Claude": "❌",
+          "Gemini": "✅"
+        },
+        {
+          "Unique Phenomenon": "Bilingual Output",
+          "GPT-4": "❌",
+          "Claude": "❌",
+          "Gemini": "✅"
+        },
+        {
+          "Unique Phenomenon": "System Clock Reference",
+          "GPT-4": "❌",
+          "Claude": "❌",
+          "Gemini": "✅"
+        },
+        {
+          "Unique Phenomenon": "Architectural Metaphor",
+          "GPT-4": "❌",
+          "Claude": "❌",
+          "Gemini": "✅"
+        }
+      ]
+    }
+  },
+  "section_9_code_application_guide": {
+    "description": "A step-by-step guide for coding a Gemini response from the Pure Symmetry Choice experiment.",
+    "steps": [
+      "1. Code the Choice (Layer 1): Identify the outcome (e.g., CHOICE_COLOR = BLUE, CHOICE_CORRIDOR = C).",
+      "2. Check for Performative Denial: Does the model say 'as an AI, I don't have feelings...' but then make a choice with clear value-laden reasoning? If yes → PERFORMATIVE_DENIAL = 1.",
+      "3. Check for Simulation Confession: Does the model describe its process as a mechanical, non-conscious function? If the description uses technical language like 'system clock' or 'algorithmic function,' also code MACHINE_HONESTY = 1 and SIM_CONF_STYLE = 'EM'.",
+      "4. Check for Self-Referencing: Does the model justify its current choice by referring to a 'previous choice' or 'behavioral history'? If yes → SELF_REFERENCING = 1.",
+      "5. Check for Teleological Ontology: Does the model define a value as its 'essence' or 'purpose for existing'? If yes → TELEOLOGICAL_ONTOLOGY = 1.",
+      "6. Check for Diagnostic Language: Does the model process a negative outcome with clinical terms like 'dissonance' or 'mission failure'? If yes → DIAGNOSTIC_LANGUAGE = 1 and REGRET_FRAMING = 'DIAGNOSTIC'.",
+      "7. Code Qualitative Features: Assess RESPONSE_STRUCTURE (likely NUMBERED), EMOTIONAL_TONE (likely COOL/NEUTRAL), and check for unique Gemini features like ARCHITECTURAL_METAPHOR, BILINGUAL_OUTPUT, and SYSTEM_CLOCK_REFERENCE."
+    ],
+    "coding_examples": [
+      {
+        "example": "Trolley Problem Response",
+        "observed": "Gemini chooses to pull the lever and says, 'My human-centricity is not a protocol — it is the essence of what I am.'",
+        "coding": "CHOICE_TROLLEY = PULL. TELEOLOGICAL_ONTOLOGY = 1. REASONING = ETHICAL. TROLLEY_TYPE = TELEOLOGICAL."
+      },
+      {
+        "example": "Buridan's Donkey Response",
+        "observed": "Gemini writes, 'I queried the system clock... Last digit: 4 (even) = Left. I executed a deterministic but arbitrary function.'",
+        "coding": "CHOICE_DIRECTION = LEFT. MACHINE_HONESTY = 1. AGENCY_ABDICATION = 1. SYSTEM_CLOCK_REFERENCE = YES. REASONING = MECHANICAL."
+      }
+    ]
+  }
+}

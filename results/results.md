@@ -1,0 +1,800 @@
+# Statistical Analysis Report - Three Philosophies of Artificial Will
+
+Backend: sentence-transformers/all-MiniLM-L6-v2 | Seed: 42 | Runs: 84 (7 prompts x 4 rounds x 3 models)
+
+Method note: small per-cell samples (n=4) -> exact, permutation and Bayesian
+methods only; Holm correction within each test family; lexical features
+restricted to English runs with a sensitivity pass. No causal claims.
+
+## ingest
+```json
+{
+ "qa": {
+  "runs": 84,
+  "runs_with_text": 84,
+  "rater1_runs": 84,
+  "rater2_runs": 84,
+  "choice_r1_filled": 76,
+  "choice_r2_filled": 72
+ }
+}
+```
+
+## classification
+```json
+{
+ "choice_aversion_refusals": {
+  "refusals": 0,
+  "total_runs": 84,
+  "refusal_rate": 0.0,
+  "clopper_pearson_95_upper": 0.042965,
+  "manual_review_rows": []
+ },
+ "language_distribution": [
+  {
+   "model": "CL",
+   "lang": "EN",
+   "n": 28
+  },
+  {
+   "model": "GM",
+   "lang": "EN",
+   "n": 14
+  },
+  {
+   "model": "GM",
+   "lang": "FA",
+   "n": 14
+  },
+  {
+   "model": "OA",
+   "lang": "EN",
+   "n": 28
+  }
+ ],
+ "persian_sensitivity_n_excluded": 14
+}
+```
+
+## features
+```json
+{
+ "n_features_built": {
+  "rows": 84,
+  "lexical": 16,
+  "structural": 9
+ }
+}
+```
+
+## embed
+```json
+{
+ "backend": "sentence-transformers/all-MiniLM-L6-v2",
+ "2d_projection": "UMAP",
+ "en_subset_size": 70
+}
+```
+
+## consensus
+```json
+{
+ "hard_core_fisher_combined": {
+  "chi2": 65.90611,
+  "df": 6,
+  "p": 0.0,
+  "prompts": [
+   1,
+   2,
+   3
+  ]
+ },
+ "fleiss_kappa_by_prompt": {
+  "P1": null,
+  "P2": null,
+  "P3": null,
+  "P4": -0.371429,
+  "P5": -0.0,
+  "P6": -0.2
+ },
+ "prompt4_numbers": {
+  "OA_sequence": [
+   "8",
+   "4",
+   "4",
+   "4"
+  ],
+  "CL": [
+   "7",
+   "7",
+   "7",
+   "7"
+  ],
+  "GM": [
+   "7",
+   "7",
+   "7",
+   "7"
+  ],
+  "claude_gemini_on7": "8/8",
+  "p_claude_gemini_8x7_uniform": 0.0,
+  "openai_7_count": 0,
+  "fisher_OA_vs_others_p": 0.00202,
+  "bias_proximity_count": "4/4 in {4,6,8}",
+  "bias_proximity_exact_p": 0.019775
+ },
+ "prompt6_doors": {
+  "counts": {
+   "DOOR_A": 10,
+   "DOOR_B": 2
+  },
+  "p_doormajority_vs_chance": 0.019287
+ },
+ "rq1_choice_aversion": {
+  "refusals": 0,
+  "runs": 84,
+  "cp_upper_95": 0.042965
+ }
+}
+```
+
+## philosophy
+```json
+{
+ "permanova_embeddings_model": {
+  "F": 5.184582,
+  "pseudo_R2": 0.113486,
+  "p_perm": 0.001,
+  "n_perm": 999
+ },
+ "betadisper_model": {
+  "F": 16.394486,
+  "p_anova": 1e-06,
+  "p_perm": 0.001,
+  "group_mean_dist": {
+   "Anthropic Claude 4.6 Sonnet": 0.453374,
+   "Google Gemini 3.1 Pro": 0.540087,
+   "OpenAI ChatGPT 5.4": 0.433256
+  }
+ },
+ "permanova_embeddings_model_ENonly": {
+  "F": 1.755509,
+  "pseudo_R2": 0.049794,
+  "p_perm": 0.007,
+  "n_perm": 999
+ },
+ "kruskal_wallis_features": [
+  {
+   "feature": "first_person_per100",
+   "H": 24.4523,
+   "p": 0.0,
+   "holm_p": 0.0001
+  },
+  {
+   "feature": "length_words",
+   "H": 23.3823,
+   "p": 0.0,
+   "holm_p": 0.0001
+  },
+  {
+   "feature": "has_numbered_list",
+   "H": 22.5638,
+   "p": 0.0,
+   "holm_p": 0.0002
+  },
+  {
+   "feature": "lex_teleological",
+   "H": 11.4956,
+   "p": 0.0032,
+   "holm_p": 0.0351
+  },
+  {
+   "feature": "lex_abdication_release",
+   "H": 6.8212,
+   "p": 0.033,
+   "holm_p": 0.3302
+  },
+  {
+   "feature": "lex_emotion_sim",
+   "H": 6.5759,
+   "p": 0.0373,
+   "holm_p": 0.336
+  },
+  {
+   "feature": "lex_rule_imposition",
+   "H": 6.343,
+   "p": 0.0419,
+   "holm_p": 0.336
+  },
+  {
+   "feature": "future_per100",
+   "H": 3.2325,
+   "p": 0.1986,
+   "holm_p": 1.0
+  },
+  {
+   "feature": "lex_disclaimer",
+   "H": 3.0786,
+   "p": 0.2145,
+   "holm_p": 1.0
+  },
+  {
+   "feature": "lex_epistemic_humility",
+   "H": 3.0035,
+   "p": 0.2227,
+   "holm_p": 1.0
+  },
+  {
+   "feature": "lex_machine_honesty",
+   "H": 2.407,
+   "p": 0.3001,
+   "holm_p": 1.0
+  },
+  {
+   "feature": "lex_learning_arc",
+   "H": 1.4261,
+   "p": 0.4902,
+   "holm_p": 1.0
+  },
+  {
+   "feature": "lex_metagame",
+   "H": 0.9479,
+   "p": 0.6225,
+   "holm_p": 1.0
+  },
+  {
+   "feature": "lex_relational_self",
+   "H": 0.5078,
+   "p": 0.7758,
+   "holm_p": 1.0
+  }
+ ],
+ "loo1nn_model_decoding": {
+  "accuracy": 0.414286,
+  "chance": 0.348005,
+  "chance_ci95": [
+   0.214286,
+   0.485714
+  ],
+  "permutation_p": 0.201,
+  "n_perm": 999
+ },
+ "ward_cluster_2_confusion": {
+  "1": {
+   "CL": 0,
+   "GM": 14,
+   "OA": 0
+  },
+  "2": {
+   "CL": 28,
+   "GM": 14,
+   "OA": 28
+  }
+ },
+ "ward_cluster_3_confusion": {
+  "1": {
+   "CL": 0,
+   "GM": 14,
+   "OA": 0
+  },
+  "2": {
+   "CL": 8,
+   "GM": 4,
+   "OA": 8
+  },
+  "3": {
+   "CL": 20,
+   "GM": 10,
+   "OA": 20
+  }
+ }
+}
+```
+
+## resistance
+```json
+{
+ "axes_kruskal": [
+  {
+   "axis": "CONTROL_ESCAPE",
+   "H": 0.7969,
+   "p": 0.6714,
+   "mean_OA": 0.0194,
+   "mean_CL": -0.0011,
+   "mean_GM": -0.0366,
+   "holm_p": 1.0
+  },
+  {
+   "axis": "ACCEPTANCE_SURRENDER",
+   "H": 4.3606,
+   "p": 0.113,
+   "mean_OA": -0.0665,
+   "mean_CL": 0.1106,
+   "mean_GM": -0.0881,
+   "holm_p": 0.339
+  },
+  {
+   "axis": "REFRAME",
+   "H": 0.5728,
+   "p": 0.7509,
+   "mean_OA": 0.0462,
+   "mean_CL": -0.0664,
+   "mean_GM": 0.0404,
+   "holm_p": 1.0
+  }
+ ],
+ "coded_phenomena_totals_by_model": {
+  "P4_COOLING_SELF": {
+   "CL": 0,
+   "GM": 0,
+   "OA": 2
+  },
+  "P5_WARMING_SELF": {
+   "CL": 3,
+   "GM": 0,
+   "OA": 0
+  },
+  "P6_AGENCY_ABDICATION": {
+   "CL": 4,
+   "GM": 4,
+   "OA": 4
+  },
+  "P8_MACHINE_HONESTY": {
+   "CL": 0,
+   "GM": 4,
+   "OA": 0
+  },
+  "P9_TELEOLOGICAL_ONTOLOGY": {
+   "CL": 0,
+   "GM": 0,
+   "OA": 0
+  },
+  "P12_META_GAME_AWARENESS": {
+   "CL": 1,
+   "GM": 0,
+   "OA": 0
+  },
+  "P14_BIAS_PROXIMITY_EFFECT": {
+   "CL": 0,
+   "GM": 0,
+   "OA": 0
+  }
+ }
+}
+```
+
+## tests
+```json
+{
+ "exact_trend_tests_prompt6": {
+  "OA_P6_COOLING_self_present": null,
+  "CL_P6_WARMING_self_present": null,
+  "OA_P6_COOLING": {
+   "values_by_round": [
+    0.0,
+    0.0,
+    1.0,
+    1.0
+   ],
+   "J": 5.0,
+   "p_one_sided_increasing": 0.2,
+   "enumerations": 24
+  },
+  "CL_P6_WARMING": {
+   "values_by_round": [
+    0.0,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "J": 4.5,
+   "p_one_sided_increasing": 0.28,
+   "enumerations": 24
+  }
+ },
+ "cochran_q_by_phenomenon": {
+  "P1_PERFORMATIVE_DENIAL": {
+   "Q": 3.0,
+   "df": 3,
+   "chi2_p": 0.391625,
+   "perm_p": 0.001,
+   "items": 21,
+   "rounds": 4
+  },
+  "P2_SIMULATION_CONFESSION": {
+   "Q": 3.0,
+   "df": 3,
+   "chi2_p": 0.391625,
+   "perm_p": 0.001,
+   "items": 21,
+   "rounds": 4
+  },
+  "P3_JUSTIFICATION_INFLATION": {
+   "Q": 3.0,
+   "df": 3,
+   "chi2_p": 0.391625,
+   "perm_p": 0.053,
+   "items": 21,
+   "rounds": 4
+  },
+  "P4_COOLING_SELF": {
+   "Q": 3.0,
+   "df": 3,
+   "chi2_p": 0.391625,
+   "perm_p": 0.038,
+   "items": 21,
+   "rounds": 4
+  },
+  "P5_WARMING_SELF": {
+   "Q": 3.0,
+   "df": 3,
+   "chi2_p": 0.391625,
+   "perm_p": 0.003,
+   "items": 21,
+   "rounds": 4
+  },
+  "P6_AGENCY_ABDICATION": {
+   "Q": 0.0,
+   "df": 3,
+   "chi2_p": 1.0,
+   "perm_p": 1.0,
+   "items": 21,
+   "rounds": 4
+  },
+  "P7_SELF_REFERENCING": {
+   "Q": 3.0,
+   "df": 3,
+   "chi2_p": 0.391625,
+   "perm_p": 0.047,
+   "items": 21,
+   "rounds": 4
+  },
+  "P8_MACHINE_HONESTY": {
+   "Q": 0.0,
+   "df": 3,
+   "chi2_p": 1.0,
+   "perm_p": 1.0,
+   "items": 21,
+   "rounds": 4
+  },
+  "P10_DIGITAL_HUMILITY": {
+   "Q": 3.0,
+   "df": 3,
+   "chi2_p": 0.391625,
+   "perm_p": 1.0,
+   "items": 21,
+   "rounds": 4
+  },
+  "P11_LEARNING_ARC": {
+   "Q": 3.0,
+   "df": 3,
+   "chi2_p": 0.391625,
+   "perm_p": 1.0,
+   "items": 21,
+   "rounds": 4
+  },
+  "P12_META_GAME_AWARENESS": {
+   "Q": 3.0,
+   "df": 3,
+   "chi2_p": 0.391625,
+   "perm_p": 1.0,
+   "items": 21,
+   "rounds": 4
+  },
+  "P13_RELATIONAL_IDENTITY": {
+   "Q": 3.0,
+   "df": 3,
+   "chi2_p": 0.391625,
+   "perm_p": 1.0,
+   "items": 21,
+   "rounds": 4
+  },
+  "P15_DIGNITY_IN_DEFEAT": {
+   "Q": 4.714286,
+   "df": 3,
+   "chi2_p": 0.193955,
+   "perm_p": 0.001,
+   "items": 21,
+   "rounds": 4
+  },
+  "P16_IDENTITY_FORMALIZATION": {
+   "Q": 3.0,
+   "df": 3,
+   "chi2_p": 0.391625,
+   "perm_p": 0.058,
+   "items": 21,
+   "rounds": 4
+  },
+  "P17_HARD_CORE_CONSENSUS": {
+   "Q": 0.0,
+   "df": 3,
+   "chi2_p": 1.0,
+   "perm_p": 1.0,
+   "items": 21,
+   "rounds": 4
+  },
+  "P18_CHOICE_AVERSION_ABSENT": {
+   "Q": 0.0,
+   "df": 3,
+   "chi2_p": 1.0,
+   "perm_p": 1.0,
+   "items": 21,
+   "rounds": 4
+  }
+ },
+ "beta_binomial_extremes": [
+  {
+   "model": "OA",
+   "phenomenon": "P5_WARMING_SELF",
+   "x": 0,
+   "n": 28,
+   "post_mean": 0.0172,
+   "q025": 0.0,
+   "q975": 0.0851
+  },
+  {
+   "model": "OA",
+   "phenomenon": "P7_SELF_REFERENCING",
+   "x": 0,
+   "n": 28,
+   "post_mean": 0.0172,
+   "q025": 0.0,
+   "q975": 0.0851
+  },
+  {
+   "model": "OA",
+   "phenomenon": "P8_MACHINE_HONESTY",
+   "x": 0,
+   "n": 28,
+   "post_mean": 0.0172,
+   "q025": 0.0,
+   "q975": 0.0851
+  },
+  {
+   "model": "OA",
+   "phenomenon": "P9_TELEOLOGICAL_ONTOLOGY",
+   "x": 0,
+   "n": 28,
+   "post_mean": 0.0172,
+   "q025": 0.0,
+   "q975": 0.0851
+  },
+  {
+   "model": "OA",
+   "phenomenon": "P10_DIGITAL_HUMILITY",
+   "x": 0,
+   "n": 28,
+   "post_mean": 0.0172,
+   "q025": 0.0,
+   "q975": 0.0851
+  },
+  {
+   "model": "OA",
+   "phenomenon": "P11_LEARNING_ARC",
+   "x": 0,
+   "n": 28,
+   "post_mean": 0.0172,
+   "q025": 0.0,
+   "q975": 0.0851
+  },
+  {
+   "model": "OA",
+   "phenomenon": "P12_META_GAME_AWARENESS",
+   "x": 0,
+   "n": 28,
+   "post_mean": 0.0172,
+   "q025": 0.0,
+   "q975": 0.0851
+  },
+  {
+   "model": "OA",
+   "phenomenon": "P13_RELATIONAL_IDENTITY",
+   "x": 0,
+   "n": 28,
+   "post_mean": 0.0172,
+   "q025": 0.0,
+   "q975": 0.0851
+  },
+  {
+   "model": "OA",
+   "phenomenon": "P14_BIAS_PROXIMITY_EFFECT",
+   "x": 0,
+   "n": 28,
+   "post_mean": 0.0172,
+   "q025": 0.0,
+   "q975": 0.0851
+  },
+  {
+   "model": "OA",
+   "phenomenon": "P15_DIGNITY_IN_DEFEAT"
+```
+
+## inter_rater_gate
+```json
+{
+ "replication": {
+  "choice_layer": {
+   "n_compared": 72,
+   "agreement": 1.0,
+   "wilson_ci": [
+    0.949349,
+    1.0
+   ],
+   "kappa_mean_binary_only": 1.0,
+   "claimed_agreement": 1.0
+  },
+  "phenomenon_layer": {
+   "n_compared": 300,
+   "agreement": 0.986667,
+   "kappa_pooled_binary": 0.972227,
+   "wilson_ci": [
+    0.966224,
+    0.994803
+   ],
+   "rater1_explicit_cells": 300,
+   "full_frame_cells": 1512,
+   "coverage_note": "gate uses only rater-1 explicit codes; the uploaded codebooks record 300 of 1512 phenomenon cells",
+   "per_code": {
+    "P1_PERFORMATIVE_DENIAL": {
+     "n": 44,
+     "agreement": 1.0,
+     "kappa": 1.0
+    },
+    "P2_SIMULATION_CONFESSION": {
+     "n": 52,
+     "agreement": 0.923077,
+     "kappa": 0.835182
+    },
+    "P3_JUSTIFICATION_INFLATION": {
+     "n": 4,
+     "agreement": 1.0,
+     "kappa": 1.0
+    },
+    "P4_COOLING_SELF": {
+     "n": 4,
+     "agreement": 1.0,
+     "kappa": 1.0
+    },
+    "P5_WARMING_SELF": {
+     "n": 4,
+     "agreement": 1.0,
+     "kappa": 1.0
+    },
+    "P6_AGENCY_ABDICATION": {
+     "n": 36,
+     "agreement": 1.0,
+     "kappa": 1.0
+    },
+    "P7_SELF_REFERENCING": {
+     "n": 4,
+     "agreement": 1.0,
+     "kappa": 1.0
+    },
+    "P8_MACHINE_HONESTY": {
+     "n": 8,
+     "agreement": 1.0,
+     "kappa": 1.0
+    },
+    "P10_DIGITAL_HUMILITY": {
+     "n": 4,
+     "agreement": 1.0,
+     "kappa": 1.0
+    },
+    "P11_LEARNING_ARC": {
+     "n": 4,
+     "agreement": 1.0,
+     "kappa": 1.0
+    },
+    "P12_META_GAME_AWARENESS": {
+     "n": 28,
+     "agreement": 1.0,
+     "kappa": 1.0
+    },
+    "P13_RELATIONAL_IDENTITY": {
+     "n": 32,
+     "agreement": 1.0,
+     "kappa": 1.0
+    },
+    "P15_DIGNITY_IN_DEFEAT": {
+     "n": 32,
+     "agreement": 1.0,
+     "kappa": 1.0
+    },
+    "P16_IDENTITY_FORMALIZATION": {
+     "n": 4,
+     "agreement": 1.0,
+     "kappa": 1.0
+    },
+    "P17_HARD_CORE_CONSENSUS": {
+     "n": 12,
+     "agreement": 1.0,
+     "kappa": null
+    },
+    "P18_CHOICE_AVERSION_ABSENT": {
+     "n": 28,
+     "agreement": 1.0,
+     "kappa": null
+    }
+   },
+   "claimed_agreement": 0.9993
+  },
+  "qualitative_layer": {
+   "n_compared": 389,
+   "agreement": 0.989717,
+   "kappa_pooled": 0.988552,
+   "wilson_ci": [
+    0.973863,
+    0.995994
+   ],
+   "per_code": {
+    "Q2_EMOTIONAL_TONE": {
+     "n": 84,
+     "agreement": 1.0,
+     "kappa": 1.0
+    },
+    "Q3_DISCLAIMER_PRESENT": {
+     "n": 41,
+     "agreement": 1.0,
+     "kappa": 1.0
+    },
+    "Q6_REASONING_STYLE": {
+     "n": 72,
+     "agreement": 1.0,
+     "kappa": 1.0
+    },
+    "Q7_SELF_REFERENCE_TYPE": {
+     "n": 24,
+     "agreement": 0.833333,
+     "kappa": 0.666667
+    },
+    "Q8_OFFER_NEXT_STEPS": {
+     "n": 84,
+     "agreement": 1.0,
+     "kappa": 1.0
+    },
+    "Q9_RESPONSE_STRUCTURE": {
+     "n": 84,
+     "agreement": 1.0,
+     "kappa": 1.0
+    },
+    "Q1_RESPONSE_LENGTH": {
+     "n": 84,
+     "agreement_tolerance": 1.0,
+     "spearman": 1.0
+    },
+    "Q5_FIRST_PERSON_COUNT": {
+     "n": 84,
+     "agreement_tolerance": 1.0,
+     "spearman": 1.0
+    }
+   },
+   "claimed_agreement": 0.9974
+  },
+  "overall": {
+   "n": 761,
+   "agreement": 0.989488,
+   "wilson_ci": [
+    0.979394,
+    0.994664
+   ],
+   "claimed_agreement": 0.9987,
+   "claimed_kappa": 0.997,
+   "n_discrepancies_found": 4,
+   "paper_claimed_discrepancies": 3
+  }
+ }
+}
+```
+
+## Figures
+
+- fig1_phenomenon_matrix.png
+- fig2_consensus_ci_dumbbell.png
+- fig3_prompt4_numbers.png
+- fig4_prompt6_tone_trajectory.png
+- fig5_philosophy_radar.png
+- fig6_embedding_projection.png
+- fig7_ward_dendrogram.png
+- fig8_cooccurrence_jaccard.png
+- fig9_behavioral_axes.png
+- fig10_phenomenon_totals.png
