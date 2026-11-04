@@ -12,6 +12,7 @@
   <a href="https://www.linkedin.com/in/abbas-hamidavi"><img src="https://img.shields.io/badge/LinkedIn-abbas--hamidavi-0A66C2?logo=linkedin&logoColor=white" alt="LinkedIn"></a>
   <a href="https://scholar.google.com/citations?user=FWqAHkgAAAAJ&hl=en"><img src="https://img.shields.io/badge/Google%20Scholar-Abbas%20Hamidavi-4285F4?logo=googlescholar&logoColor=white" alt="Google Scholar"></a>
   <a href="https://www.researchgate.net/profile/Abbas-Hamidavi"><img src="https://img.shields.io/badge/ResearchGate-Abbas--Hamidavi-00CCBB?logo=researchgate&logoColor=white" alt="ResearchGate"></a>
+  <a href="https://huggingface.co/avabbas"><img src="https://img.shields.io/badge/-Hugging_Face-FFD21E?style=flat&logo=huggingface&logoColor=black" alt="Hugging Face"></a>
   <a href="https://orcid.org/0009-0001-7342-7844"><img src="https://img.shields.io/badge/ORCID-0009--0001--7342--7844-A6CE39?logo=orcid&logoColor=white" alt="ORCID"></a>
   <a href="https://avabbas.github.io/academic-cv/"><img src="https://img.shields.io/badge/Website-Academic%20CV-16324f" alt="Academic website"></a>
 </p>
@@ -69,6 +70,7 @@ Three frontier language models (GPT-5.4, Claude 4.6 Sonnet, and Gemini 3.1 Pro) 
 
 1. The study's working files used the earlier title "Three Philosophies of Artificial Will". The article was submitted as "Three Profiles of Artificial Will"; the manifest in this repository uses the submitted title.
 2. One metadata field in the archived Claude transcripts file gives the testing period as "2025". The sessions were run in May 2026, as reported in the article and in the companion files.
+- **Dataset (Hugging Face):** [avabbas/three-profiles-of-artificial-will](https://huggingface.co/datasets/avabbas/three-profiles-of-artificial-will)
 
 <p align="center"><img src="assets/divider.svg" alt="" width="80%"></p>
 
