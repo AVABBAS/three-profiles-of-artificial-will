@@ -19,7 +19,8 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/status-submitted-blue" alt="Status: submitted">
-  <img src="https://img.shields.io/badge/journal-Minds%20and%20Machines-1d4266" alt="Journal: Minds and Machines">
+  <img src="https://img.shields.io/badge/journal-JETAI-1d4266" alt="Journal: Journal of Experimental and Theoretical Artificial Intelligence">
+  <a href="https://doi.org/10.5281/zenodo.24013229"><img src="https://img.shields.io/badge/preprint-Zenodo-orange" alt="Preprint: Zenodo"></a>
   <img src="https://img.shields.io/badge/runs-84-green" alt="84 runs">
   <a href="LICENSE"><img src="https://img.shields.io/badge/license-CC%20BY%204.0-lightgrey" alt="License: CC BY 4.0"></a>
 </p>
@@ -36,7 +37,7 @@
 
 Data, code, and materials for the article:
 
-> Hamidavi, A., and Borhani, M. *Three Profiles of Artificial Will: Exploratory Behavioural Signatures in Three Frontier Language Models Under Symmetric and Asymmetric Choice.* Submitted to *Minds and Machines*, November 2026 (manuscript MIND-D-26-01675). A preprint is in preparation with Research Square.
+> Hamidavi, A., and Borhani, M. *Three Profiles of Artificial Will: Exploratory Behavioural Signatures in Three Frontier Language Models Under Symmetric and Asymmetric Choice.* Submitted to the *Journal of Experimental and Theoretical Artificial Intelligence*, November 2026 (submission 266560241). Preprint: [doi.org/10.5281/zenodo.24013229](https://doi.org/10.5281/zenodo.24013229).
 
 <p align="center"><img src="assets/divider.svg" alt="" width="80%"></p>
 
@@ -82,17 +83,17 @@ Please cite the article. Citation metadata is provided in [CITATION.cff](CITATIO
 @article{hamidavi2026profiles,
   author  = {Hamidavi, Abbas and Borhani, Mahsa},
   title   = {Three Profiles of Artificial Will},
-  journal = {Minds and Machines},
+  journal = {Journal of Experimental and Theoretical Artificial Intelligence},
   year    = {2026},
-  note    = {Manuscript submitted, MIND-D-26-01675}
+  note    = {Manuscript submitted (submission 266560241). Preprint: Zenodo, https://doi.org/10.5281/zenodo.24013229}
 }
 ```
 
 ## 🔗 Access to the article
 
 - **OSF deposit:** [osf.io/5q2zx](https://osf.io/5q2zx)
-- **Journal:** submitted to *Minds and Machines* (MIND-D-26-01675); the publisher link will be added here if the article is published.
-- A preprint is in prescreening at Research Square; its public link will be added here as soon as it posts.
+- **Journal:** submitted to the *Journal of Experimental and Theoretical Artificial Intelligence* (submission 266560241); the publisher link will be added here if the article is published.
+- **Preprint (Zenodo, open access):** [doi.org/10.5281/zenodo.24013229](https://doi.org/10.5281/zenodo.24013229)
 
 ## ⚖️ Licences
 

@@ -12,6 +12,10 @@ authors:
     affiliation: "Department of Psychology, Mashhad Branch, Islamic Azad University, Mashhad, Iran"
 date-released: 2026-11-04
 license: CC-BY-4.0
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.24013229"
+    description: "Preprint (Zenodo)"
 preferred-citation:
   type: article
   title: "Three Profiles of Artificial Will: Exploratory Behavioural Signatures in Three Frontier Language Models Under Symmetric and Asymmetric Choice"
@@ -22,6 +26,6 @@ preferred-citation:
     - family-names: Borhani
       given-names: Mahsa
       orcid: "https://orcid.org/0009-0008-0356-3569"
-  journal: "Minds and Machines"
+  journal: "Journal of Experimental and Theoretical Artificial Intelligence"
   year: 2026
-  notes: "Manuscript MIND-D-26-01675, submitted November 2026."
+  notes: "Manuscript submitted November 2026, submission 266560241."
